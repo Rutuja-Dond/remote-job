@@ -219,7 +219,7 @@ footer .fine{grid-column:1/-1;border-top:1px solid var(--line);padding-top:16px;
 
 <script>
 /* DAILY UPDATE: edit only this block. Each job: id, pri (1-3), added (YYYY-MM-DD), reg (array of: India, USA, Canada, Japan, Saudi, Global), title, co, loc, years, overlap, why, url, note (optional). */
-const META = {
+let META = {
   date: "2026-10-06",
   dateline: "Daily update · Tuesday, 6 October 2026",
   signal: "Apple is reported to be expanding AI hiring in India (Sept 2026) and OpenAI is reported to be hiring AI engineers in Delhi and Mumbai. Neither article could be opened, so both are unverified; check the careers pages. Roles that combine UI and agentic work remain scarce, since most agentic listings are Python or backend.",
@@ -233,7 +233,7 @@ const META = {
   },
   boards: "Scanned through public pages and search results: reactjobs.io, onlyfrontendjobs, Arc, Himalayas, agentic-engineering-jobs, Hacker News Who is Hiring, TokyoDev, Japan Dev, hiddenjobs.dev, company careers pages. Added regions: Remote Rocketship (Africa), Indeed Nigeria, Glassdoor Australia. Could not scan (login wall, 403 or robots.txt): LinkedIn and Naukri job feeds, Seek, parts of Bayt. Posting dates are not shown on every source, so confirm date and eligibility on each apply link."
 };
-const JOBS = [
+let JOBS = [
  {id:"deepsource",pri:2,added:"2026-10-06",reg:["Africa"],title:"Senior React Developer",co:"DeepSource",loc:"Remote, Egypt / Africa",years:"Senior",overlap:"",why:"React frontend at an AI-powered code quality company. Listed under the Artificial Intelligence category.",url:"https://www.remoterocketship.com/company/deepsource-ai/jobs/senior-react-developer-egypt-remote/",note:"Check eligibility outside Egypt"},
  {id:"umbrel",pri:3,added:"2026-10-06",reg:["Global","Africa","Australia"],title:"Senior Frontend Engineer",co:"Umbrel",loc:"Remote, worldwide",years:"5+ years",overlap:"Async-first, no fixed hours",why:"Leads frontend for umbrelOS with React, TypeScript, Tailwind and Radix UI. Strong accessibility and interaction focus.",url:"https://www.onlyfrontendjobs.com/jobs/senior-frontend-engineer-umbrel-1209"},
  {id:"yellowcard",pri:3,added:"2026-10-06",reg:["Africa"],title:"Senior Frontend Engineer",co:"Yellow Card",loc:"Remote, Africa",years:"Senior",overlap:"",why:"Fintech frontend role open across Africa. No AI focus listed.",url:"https://www.remoterocketship.com/company/yellowcard-io/jobs/senior-frontend-engineer-africa-remote/"},
@@ -259,6 +259,8 @@ const JOBS = [
  {id:"arcfs",pri:3,added:"2026-10-05",reg:["USA"],title:"Senior Full-Stack Developer (Next.js, React)",co:"Arc Exclusive",loc:"Remote, Pacific Time overlap",years:"Senior",overlap:"Pacific time",why:"Full-time Next.js and React role, 80K-120K.",url:"https://arc.dev/remote-jobs/details/senior-full-stack-developer-pkmiiyi85w"},
  {id:"hennge",pri:3,added:"2026-10-05",reg:["Japan"],title:"Senior Frontend Engineer (Svelte)",co:"HENNGE",loc:"Tokyo, partially remote",years:"Senior",overlap:"",why:"Visa sponsorship, JPY 8.5M-12.5M. Svelte, not React.",url:"https://japan-dev.com/jobs/hennge/hennge-senior-frontend-engineer-svelte----hennge-tadrill-team-qrygiz"}
 ];
+(async function(){
+try{const r=await fetch('data/jobs.json',{cache:'no-store'});if(r.ok){const j=await r.json();META=j.meta;JOBS=j.jobs}}catch(e){}
 const LV = {1:"UI plus agentic AI",2:"Strong stack, AI in product",3:"Senior frontend"};
 const SKILLS = [["React",/\breact\b/i],["Next.js",/next\.?js/i],["TypeScript",/typescript/i],["Node.js",/node(\.js)?\b/i],["AI agents",/agent/i],["LLM",/\bllm|openai|anthropic|claude|gemini|generative/i],["RAG",/\brag\b/i],["MCP",/\bmcp\b/i],["Postgres",/postgres/i],["Go",/\bgo\b/i],["Python",/python/i],["Svelte",/svelte/i]];
 const $ = id => document.getElementById(id);
@@ -343,4 +345,6 @@ $("boards").textContent = META.boards;
 $("yr").textContent = "Remote Job Radar · " + META.date.slice(0,4);
 if (window.matchMedia("(max-width:860px)").matches) $("fdet").open = false;
 render();
+
+})();
 </script>
