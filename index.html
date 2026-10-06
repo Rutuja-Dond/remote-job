@@ -1,0 +1,346 @@
+<title>Remote Job Radar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* Layout: sticky site nav, left-aligned hero with search, then a two-column job board (filter sidebar + result list), region guide and footer. White only. */
+:root{
+  color-scheme:light;
+  --bg:#ffffff; --surface:#f6f8fb; --fg:#101828; --muted:#5b6678; --line:#e4e8ef; --line-strong:#cfd6e2;
+  --accent:#1d4ed8; --accent-dark:#1740b0; --accent-soft:#e8efff;
+  --p1:#0f766e; --p1-soft:#e0f5f1; --p2:#1d4ed8; --p2-soft:#e8efff; --p3:#6b7280; --p3-soft:#eef0f3;
+  --new:#b45309; --new-soft:#fff3dc;
+  --font-display:'Schibsted Grotesk',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-mono:'IBM Plex Mono',ui-monospace,Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{background:var(--bg);color:var(--fg);font-family:var(--font-display);font-size:15px;line-height:1.55}
+a{color:var(--accent)}
+button{font:inherit;color:inherit}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.c{max-width:1120px;margin:0 auto;padding-inline:16px}
+/* nav */
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}
+.nav .c{display:flex;align-items:center;gap:14px 28px;min-height:60px;flex-wrap:wrap;padding-block:8px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:18px;letter-spacing:-.02em;color:var(--fg);text-decoration:none}
+.logo svg{flex:none}
+.navlinks{display:flex;gap:4px 22px;flex-wrap:wrap;margin-left:auto}
+.navlinks a{color:var(--muted);text-decoration:none;font-size:14.5px;font-weight:500;padding:4px 0}
+.navlinks a:hover{color:var(--fg)}
+.live{font-family:var(--font-mono);font-size:11.5px;color:var(--muted);display:flex;align-items:center;gap:7px;border:1px solid var(--line);border-radius:999px;padding:4px 11px}
+.live i{width:7px;height:7px;border-radius:50%;background:var(--p1);display:block}
+/* hero */
+.hero{border-bottom:1px solid var(--line)}
+.hero .c{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:32px 48px;padding-block:52px 44px;align-items:center}
+.eyebrow{font-family:var(--font-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:clamp(32px,5.4vw,54px);line-height:1.04;margin:10px 0 16px;font-weight:800;letter-spacing:-.035em;text-wrap:balance}
+.lede{margin:0 0 24px;color:var(--muted);font-size:17px;max-width:54ch}
+.search{display:flex;gap:8px;border:1px solid var(--line-strong);border-radius:12px;padding:6px;background:var(--bg);box-shadow:0 1px 2px rgba(16,24,40,.05)}
+.search:focus-within{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+.search input{flex:1;min-width:0;border:0;outline:0;background:transparent;font:inherit;font-size:16px;padding:10px 12px;color:var(--fg)}
+.search button{border:0;background:var(--accent);color:#fff;font-weight:600;padding:0 20px;border-radius:8px;cursor:pointer}
+.search button:hover{background:var(--accent-dark)}
+.quick{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;align-items:center}
+.quick span{font-size:13px;color:var(--muted)}
+.chip{font-size:13px;border:1px solid var(--line);background:var(--bg);padding:4px 12px;border-radius:999px;cursor:pointer}
+.chip:hover{border-color:var(--accent);color:var(--accent)}
+.today{border:1px solid var(--line);border-radius:14px;background:var(--surface);padding:20px;display:flex;flex-direction:column;gap:16px;min-width:0}
+.today h2{margin:0;font-size:12px;font-family:var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:500}
+.nums{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.nums div{display:flex;flex-direction:column}
+.nums b{font-size:30px;line-height:1;font-weight:800;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.nums span{font-size:13px;color:var(--muted)}
+.today p{margin:0;font-size:14px;color:var(--muted);padding-top:14px;border-top:1px solid var(--line)}
+.today p b{color:var(--fg)}
+/* picks */
+.sec{padding-block:44px 8px}
+.sechead{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:6px 16px;margin-bottom:16px}
+.sechead h2{margin:0;font-size:24px;font-weight:700;letter-spacing:-.02em}
+.sechead span{color:var(--muted);font-size:14px}
+.picks{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.pick{border:1px solid var(--line);border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:8px;min-width:0;text-decoration:none;color:inherit;transition:border-color .15s,box-shadow .15s}
+.pick:hover{border-color:var(--accent);box-shadow:0 4px 18px rgba(29,78,216,.08)}
+.pick .t{font-weight:700;font-size:17px;line-height:1.3;overflow-wrap:anywhere}
+.pick .why{margin:0;color:var(--muted);font-size:14px}
+.pick .go{margin-top:auto;color:var(--accent);font-weight:600;font-size:14px}
+.row{display:flex;align-items:center;gap:10px;min-width:0}
+.av{flex:none;width:38px;height:38px;border-radius:9px;background:var(--accent-soft);color:var(--accent);font-weight:800;display:grid;place-items:center;font-size:16px}
+.co{color:var(--muted);font-size:14px;overflow-wrap:anywhere}
+/* board */
+.board{display:grid;grid-template-columns:240px minmax(0,1fr);gap:32px;align-items:start;padding-block:20px 56px}
+.side{position:sticky;top:76px;display:flex;flex-direction:column;gap:20px}
+.side details>summary{display:none}
+.fg{display:flex;flex-direction:column;gap:6px}
+.fg h3{margin:0 0 2px;font-family:var(--font-mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:500}
+.opt{display:flex;align-items:center;gap:9px;font-size:14.5px;cursor:pointer;padding:3px 0}
+.opt input{width:16px;height:16px;accent-color:var(--accent);margin:0}
+.opt em{margin-left:auto;font-style:normal;font-family:var(--font-mono);font-size:12px;color:var(--muted)}
+.clear{border:0;background:none;color:var(--accent);font-weight:600;font-size:13.5px;cursor:pointer;padding:0;text-align:left}
+.tools{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between;padding-bottom:14px;border-bottom:1px solid var(--line);margin-bottom:16px}
+.tools .count{font-weight:600}
+.tools label{font-size:13.5px;color:var(--muted);display:flex;gap:8px;align-items:center}
+.tools select{font:inherit;font-size:14px;border:1px solid var(--line-strong);border-radius:8px;padding:6px 10px;background:var(--bg);color:var(--fg)}
+.list{display:flex;flex-direction:column;gap:12px}
+.job{border:1px solid var(--line);border-radius:12px;padding:18px 20px;display:flex;flex-direction:column;gap:10px;background:var(--bg);transition:border-color .15s,box-shadow .15s}
+.job:hover{border-color:var(--line-strong);box-shadow:0 4px 18px rgba(16,24,40,.06)}
+.job .head{display:flex;gap:14px;align-items:flex-start}
+.job .ti{flex:1;min-width:0}
+.job h4{margin:0;font-size:18px;line-height:1.3;font-weight:700;letter-spacing:-.01em;overflow-wrap:anywhere}
+.badges{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.pill{font-family:var(--font-mono);font-size:11px;letter-spacing:.04em;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.pill.p1{background:var(--p1-soft);color:var(--p1)} .pill.p2{background:var(--p2-soft);color:var(--p2)} .pill.p3{background:var(--p3-soft);color:var(--p3)}
+.pill.new{background:var(--new-soft);color:var(--new)}
+.meta{display:flex;flex-wrap:wrap;gap:4px 18px;font-size:14px;color:var(--muted)}
+.meta b{font-weight:600;color:var(--fg)}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-size:12.5px;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:2px 8px;color:var(--fg)}
+.job p.why{margin:0;font-size:15px;max-width:76ch}
+.note{font-size:13px;color:var(--new);background:var(--new-soft);border-radius:8px;padding:6px 10px;align-self:flex-start}
+.acts{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:2px}
+.btn{display:inline-block;text-decoration:none;font-weight:600;font-size:14px;background:var(--accent);color:#fff;padding:9px 18px;border-radius:8px}
+.btn:hover{background:var(--accent-dark)}
+.ghost{border:1px solid var(--line-strong);background:var(--bg);border-radius:8px;padding:8px 14px;font-size:14px;font-weight:600;cursor:pointer}
+.ghost:hover{border-color:var(--accent);color:var(--accent)}
+.ghost[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
+.empty{border:1px dashed var(--line-strong);border-radius:12px;padding:28px;text-align:center;color:var(--muted)}
+/* regions */
+.regions{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}
+.regions div{background:var(--surface);border-radius:12px;padding:18px;min-width:0}
+.regions b{display:block;font-size:16px;margin-bottom:6px}
+.regions p{margin:0;color:var(--muted);font-size:14.5px}
+.about{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.about div{border:1px solid var(--line);border-radius:12px;padding:18px;min-width:0}
+.about b{display:block;margin-bottom:6px;font-size:16px}
+.about p{margin:0;color:var(--muted);font-size:14.5px}
+/* footer */
+footer{border-top:1px solid var(--line);margin-top:56px;background:var(--surface)}
+footer .c{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:24px 48px;padding-block:36px}
+footer h3{margin:0 0 8px;font-size:12px;font-family:var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:500}
+footer p{margin:0;color:var(--muted);font-size:14px;max-width:70ch}
+footer .fine{grid-column:1/-1;border-top:1px solid var(--line);padding-top:16px;font-size:12.5px}
+@media (max-width:860px){
+  .hero .c{grid-template-columns:minmax(0,1fr);padding-block:36px 32px}
+  .board{grid-template-columns:minmax(0,1fr);gap:16px}
+  .side{position:static}
+  .side details{border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+  .side details>summary{display:block;font-weight:600;cursor:pointer}
+  .side details[open]>summary{margin-bottom:14px}
+  .side .inner{display:flex;flex-direction:column;gap:18px}
+  footer .c{grid-template-columns:minmax(0,1fr)}
+  .navlinks{margin-left:0;width:100%;order:3}
+  .live{margin-left:auto}
+}
+@media (max-width:520px){.search button{padding:0 14px}.job{padding:16px}.job .head{gap:10px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+
+<nav class="nav" aria-label="Main">
+  <div class="c">
+    <a class="logo" href="#top"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden="true"><circle cx="13" cy="13" r="11.5" stroke="#1d4ed8" stroke-width="2"/><circle cx="13" cy="13" r="6" stroke="#1d4ed8" stroke-width="2"/><circle cx="13" cy="13" r="2" fill="#1d4ed8"/><path d="M13 13 L21 6" stroke="#1d4ed8" stroke-width="2" stroke-linecap="round"/></svg>Remote Job Radar</a>
+    <div class="navlinks"><a href="#picks">Top picks</a><a href="#jobs">All jobs</a><a href="#regions">Regions</a><a href="#about">How it works</a></div>
+    <span class="live"><i></i><span id="navdate"></span></span>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="c">
+    <div>
+      <div class="eyebrow">Senior frontend · agentic AI · remote</div>
+      <h1>Remote React and Next.js jobs that build with AI agents.</h1>
+      <p class="lede">Hand-filtered every morning for senior engineers. Roles in India, the USA, Canada, Saudi Arabia, Japan, Australia and Africa, with timezone overlap shown in IST.</p>
+      <form class="search" id="searchForm" role="search">
+        <input id="q" type="search" placeholder="Search title, company or skill, for example Next.js or MCP" aria-label="Search jobs" autocomplete="off">
+        <button type="submit">Search</button>
+      </form>
+      <div class="quick" id="quick"><span>Popular:</span></div>
+    </div>
+    <aside class="today" aria-label="Today">
+      <h2 id="todayH"></h2>
+      <div class="nums" id="nums"></div>
+      <p id="signal"></p>
+    </aside>
+  </div>
+</header>
+
+<main>
+<section class="sec c" id="picks">
+  <div class="sechead"><h2>Top picks today</h2><span>Best match for UI plus agentic AI</span></div>
+  <div class="picks" id="pickList"></div>
+</section>
+
+<section class="c" id="jobs">
+  <div class="sechead" style="margin-top:44px;margin-bottom:0"><h2>All jobs</h2><span id="updated"></span></div>
+  <div class="board">
+    <aside class="side" aria-label="Filters">
+      <details id="fdet" open>
+        <summary>Filters</summary>
+        <div class="inner">
+          <div class="fg" id="fPri"><h3>Priority</h3></div>
+          <div class="fg" id="fReg"><h3>Region</h3></div>
+          <div class="fg" id="fTag"><h3>Skills</h3></div>
+          <div class="fg" id="fMore"><h3>More</h3></div>
+          <button type="button" class="clear" id="clear">Clear all filters</button>
+        </div>
+      </details>
+    </aside>
+    <div>
+      <div class="tools">
+        <span class="count" id="count"></span>
+        <label>Sort by <select id="sort"><option value="rank">Best match</option><option value="new">Newest first</option><option value="co">Company A to Z</option></select></label>
+      </div>
+      <div class="list" id="list"></div>
+    </div>
+  </div>
+</section>
+
+<section class="c" id="regions" style="padding-top:8px">
+  <div class="sechead"><h2>By region</h2><span>Where the roles are</span></div>
+  <div class="regions" id="regionList"></div>
+</section>
+
+<section class="sec c" id="about">
+  <div class="sechead"><h2>How it works</h2></div>
+  <div class="about">
+    <div><b>Scanned daily</b><p>Every morning at 9:00 IST the board is refreshed from public job boards, careers pages and hiring threads.</p></div>
+    <div><b>Ranked by fit</b><p>P1 combines UI work with agentic AI. P2 is a strong React or Next.js stack with AI in the product. P3 is senior frontend without an AI focus.</p></div>
+    <div><b>One role per company</b><p>No duplicate listings, no minor announcements. Closed or unconfirmed roles drop off after about three weeks.</p></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="c">
+    <div><h3>Boards scanned</h3><p id="boards"></p></div>
+    <div><h3>Contact</h3><p>Personal job board maintained for RRK. Roles are gathered from public pages and may close or change without notice. Confirm eligibility with each employer before applying.</p></div>
+    <p class="fine" id="yr"></p>
+  </div>
+</footer>
+
+<script>
+/* DAILY UPDATE: edit only this block. Each job: id, pri (1-3), added (YYYY-MM-DD), reg (array of: India, USA, Canada, Japan, Saudi, Global), title, co, loc, years, overlap, why, url, note (optional). */
+const META = {
+  date: "2026-10-06",
+  dateline: "Daily update · Tuesday, 6 October 2026",
+  signal: "Apple is reported to be expanding AI hiring in India (Sept 2026) and OpenAI is reported to be hiring AI engineers in Delhi and Mumbai. Neither article could be opened, so both are unverified; check the careers pages. Roles that combine UI and agentic work remain scarce, since most agentic listings are Python or backend.",
+  regions: {
+    "India": "AssetIntel and Raochra are the closest direct matches. The 65+ India agentic listings are almost all Python/LLM roles, not UI.",
+    "Japan (English)": "Money Forward (Tokyo) and Metanomaly list no Japanese requirement and are partially remote. HENNGE offers visa sponsorship. Confirm seniority and sponsorship on each page.",
+    "Canada / USA": "Mattermost, GC AI, HIFI Labs, Fredrin and Curai hire in North America. Several need US-hours overlap, which is night time in IST.",
+    "Australia": "No verified remote UI plus agentic role found. Seek blocks automated reads, so check Seek and LinkedIn Australia directly. Umbrel (worldwide) is open from Australia.",
+    "Africa": "DeepSource (Egypt remote, AI company), Yellow Card and Umbrel are open. DuckDuckGo also hires remote across Africa. India-based remote roles in Africa-only listings are not eligible.",
+    "Saudi Arabia": "No verified remote UI plus agentic role today. Your SABIC KSA project experience is a plus when you apply."
+  },
+  boards: "Scanned through public pages and search results: reactjobs.io, onlyfrontendjobs, Arc, Himalayas, agentic-engineering-jobs, Hacker News Who is Hiring, TokyoDev, Japan Dev, hiddenjobs.dev, company careers pages. Added regions: Remote Rocketship (Africa), Indeed Nigeria, Glassdoor Australia. Could not scan (login wall, 403 or robots.txt): LinkedIn and Naukri job feeds, Seek, parts of Bayt. Posting dates are not shown on every source, so confirm date and eligibility on each apply link."
+};
+const JOBS = [
+ {id:"deepsource",pri:2,added:"2026-10-06",reg:["Africa"],title:"Senior React Developer",co:"DeepSource",loc:"Remote, Egypt / Africa",years:"Senior",overlap:"",why:"React frontend at an AI-powered code quality company. Listed under the Artificial Intelligence category.",url:"https://www.remoterocketship.com/company/deepsource-ai/jobs/senior-react-developer-egypt-remote/",note:"Check eligibility outside Egypt"},
+ {id:"umbrel",pri:3,added:"2026-10-06",reg:["Global","Africa","Australia"],title:"Senior Frontend Engineer",co:"Umbrel",loc:"Remote, worldwide",years:"5+ years",overlap:"Async-first, no fixed hours",why:"Leads frontend for umbrelOS with React, TypeScript, Tailwind and Radix UI. Strong accessibility and interaction focus.",url:"https://www.onlyfrontendjobs.com/jobs/senior-frontend-engineer-umbrel-1209"},
+ {id:"yellowcard",pri:3,added:"2026-10-06",reg:["Africa"],title:"Senior Frontend Engineer",co:"Yellow Card",loc:"Remote, Africa",years:"Senior",overlap:"",why:"Fintech frontend role open across Africa. No AI focus listed.",url:"https://www.remoterocketship.com/company/yellowcard-io/jobs/senior-frontend-engineer-africa-remote/"},
+ {id:"kake",pri:1,added:"2026-10-06",reg:["USA"],title:"Senior Fullstack Engineer (Next.js / AI Agents)",co:"Kake",loc:"Remote, US timezone overlap",years:"Senior, years not stated",overlap:"9am-3pm PT, about 9:30pm-3:30am IST",why:"Next.js, React 18 and Postgres with multi-agent workflows, RAG pipelines, MCP servers and voice agents. Strongest UI plus agentic match found so far.",url:"https://kake.co/jobs/senior-fullstack-engineer-next-js-ai-agents-17edc92bcbc8"},
+ {id:"mattermost",pri:1,added:"2026-10-06",reg:["USA","Canada"],title:"Senior / Staff Full Stack Engineer",co:"Mattermost",loc:"Remote, US and Canada",years:"Senior / Staff",overlap:"",why:"React and TypeScript frontend with a Go backend. The team uses AI coding agents daily.",url:"https://job-boards.greenhouse.io/mattermost"},
+ {id:"yozma",pri:1,added:"2026-10-06",reg:["Global"],title:"AI Builder / Full-Stack Engineer",co:"YozmaTech",loc:"Remote, Europe-based listing",years:"Senior",overlap:"",why:"AI product work on a React full-stack team. Posted about 6 days ago.",url:"https://reactjobs.io/react-jobs/yozmatech/11035-ai-builder-full-stack-engineer",note:"India eligibility unconfirmed, ask first"},
+ {id:"exadel",pri:1,added:"2026-10-06",reg:["USA","Global"],title:"Senior Full-Stack Software Engineer (Python / Node.js, React)",co:"Exadel",loc:"Remote, Bulgaria / United States",years:"Senior",overlap:"",why:"React with AI work mentioned on the Arc listing.",url:"https://arc.dev/remote-jobs/j/exadel-senior-full-stack-software-engineer-python-node-js-react-pourgbmceo",note:"Check location eligibility"},
+ {id:"gcai",pri:1,added:"2026-10-05",reg:["USA","Canada"],title:"Member of Technical Staff, Applied AI",co:"GC AI",loc:"Remote, US and Canada",years:"Senior",overlap:"",why:"Deep, recent TypeScript and React production experience building LLM features. Pay $180K-$430K plus equity.",url:"https://hnhiring.com/locations/remote",note:"Apply by email in the Hacker News post"},
+ {id:"lumimeds",pri:1,added:"2026-10-05",reg:["USA"],title:"Senior Frontend Engineer (Next.js and React, AI-Native)",co:"Lumimeds",loc:"Remote, LATAM / Eastern Europe, US hours",years:"Senior",overlap:"US hours",why:"Next.js App Router, Claude Agent SDK and agent pipelines.",url:"https://job-boards.greenhouse.io/lumimeds/jobs/4205821009",note:"India probably not eligible, ask first"},
+ {id:"curai",pri:1,added:"2026-10-05",reg:["USA"],title:"Senior Software Engineer, Agentic AI",co:"Curai",loc:"Remote, US",years:"Senior",overlap:"",why:"Agentic AI for healthcare. Confirm how much of the role is UI.",url:"https://jobs.lever.co/curai/cd31b67b-d83c-466a-ac55-cfa4c2ec4237"},
+ {id:"assetintel",pri:2,added:"2026-10-06",reg:["India"],title:"Senior Frontend Engineer (React)",co:"AssetIntel",loc:"Remote, India",years:"Senior",overlap:"",why:"Explicitly open to India, so this is a direct location match.",url:"https://www.onlyfrontendjobs.com/jobs/senior-frontend-engineer-react--assetintel-1186"},
+ {id:"raochra",pri:2,added:"2026-10-06",reg:["India"],title:"Senior Full Stack Engineer",co:"Raochra",loc:"India",years:"Senior",overlap:"",why:"Senior Next.js and full-stack role listed on Arc.",url:"https://arc.dev/remote-jobs/j/raochra-senior-full-stack-engineer-ppcgj8a90a"},
+ {id:"vercel",pri:2,added:"2026-10-06",reg:["Global"],title:"Software Engineer, Next.js",co:"Vercel",loc:"Remote",years:"Years not stated",overlap:"",why:"Works on Next.js itself, a strong fit for your stack and brand.",url:"https://www.onlyfrontendjobs.com/jobs/software-engineer-next-js-vercel-1117"},
+ {id:"hifi",pri:2,added:"2026-10-06",reg:["USA"],title:"Senior Fullstack Engineer",co:"HIFI Labs",loc:"Remote (PST) or San Francisco",years:"Senior",overlap:"Pacific time",why:"TypeScript, React, Next.js and Expo with Firebase on GCP.",url:"https://hnhiring.com/locations/remote",note:"Apply: shout@hifilabs.co"},
+ {id:"fredrin",pri:2,added:"2026-10-06",reg:["USA"],title:"Forward Deployed Engineer",co:"Fredrin",loc:"Remote, US",years:"Years not stated",overlap:"",why:"TypeScript work with AI coding agents. Pay $150K-$250K.",url:"https://www.fredrin.com/careers/forward-deployed-engineer"},
+ {id:"moneyforward",pri:2,added:"2026-10-06",reg:["Japan"],title:"Staff AI Engineer (AI Agents Development)",co:"Money Forward",loc:"Tokyo, partially remote",years:"Staff level",overlap:"",why:"AI agents team, English working language, no Japanese required. JPY 11M-20M. Backend-leaning, so check UI scope.",url:"https://www.tokyodev.com/companies/moneyforward/jobs/staff-ai-engineer-ai-agents-development-cdao-office-tokyo"},
+ {id:"metanomaly",pri:2,added:"2026-10-06",reg:["Japan"],title:"Fullstack Engineer, Growth",co:"Metanomaly",loc:"Japan, partially remote",years:"Check posting",overlap:"",why:"Node.js, React and TypeScript. No Japanese required.",url:"https://www.tokyodev.com/companies/metanomaly/jobs/fullstack-engineer-growth"},
+ {id:"seeq",pri:2,added:"2026-10-05",reg:["USA"],title:"Senior Full-Stack Engineer (React, JVM, Postgres)",co:"Seeq",loc:"Remote, Pacific crossover",years:"Senior",overlap:"Pacific crossover",why:"Generative AI features inside an analytics platform.",url:"https://apply.workable.com/seeq/j/763AE68666/"},
+ {id:"eventfirst",pri:2,added:"2026-10-05",reg:["Global"],title:"Senior Full-Stack Engineer",co:"eventfirst",loc:"Remote, CET timezone",years:"Senior",overlap:"CET, about 3:30pm-8:30pm IST window works",why:"Product and UX focus with an AI chat product experience wanted.",url:"https://eventfirst.jobs.personio.com/job/2821432/apply"},
+ {id:"duckduckgo",pri:3,added:"2026-10-06",reg:["USA","Canada","Global"],title:"Senior Frontend Engineer, React / TypeScript",co:"DuckDuckGo",loc:"Remote, North America / Europe / Africa",years:"Senior",overlap:"",why:"Pure senior React and TypeScript frontend role.",url:"https://www.onlyfrontendjobs.com/jobs/senior-frontend-engineer-react-typescript-duckduckgo-1106",note:"India not listed"},
+ {id:"zerta",pri:3,added:"2026-10-05",reg:["India","Global"],title:"Senior Frontend Engineer (React / TypeScript)",co:"Zerta",loc:"Worldwide",years:"Senior",overlap:"",why:"Open to India.",url:"https://hiddenjobs.dev/company/zerta/jobs/senior-frontend-engineer-react-typescript-d7a2aee3/"},
+ {id:"verensoft",pri:3,added:"2026-10-05",reg:["USA","Canada"],title:"Senior Frontend Developer",co:"Verensoft",loc:"Remote, US and Canada",years:"Senior",overlap:"",why:"TypeScript and React.",url:"https://hiddenjobs.dev/company/verensoft/jobs/senior-frontend-developer-9cff2cbd/"},
+ {id:"arcfs",pri:3,added:"2026-10-05",reg:["USA"],title:"Senior Full-Stack Developer (Next.js, React)",co:"Arc Exclusive",loc:"Remote, Pacific Time overlap",years:"Senior",overlap:"Pacific time",why:"Full-time Next.js and React role, 80K-120K.",url:"https://arc.dev/remote-jobs/details/senior-full-stack-developer-pkmiiyi85w"},
+ {id:"hennge",pri:3,added:"2026-10-05",reg:["Japan"],title:"Senior Frontend Engineer (Svelte)",co:"HENNGE",loc:"Tokyo, partially remote",years:"Senior",overlap:"",why:"Visa sponsorship, JPY 8.5M-12.5M. Svelte, not React.",url:"https://japan-dev.com/jobs/hennge/hennge-senior-frontend-engineer-svelte----hennge-tadrill-team-qrygiz"}
+];
+const LV = {1:"UI plus agentic AI",2:"Strong stack, AI in product",3:"Senior frontend"};
+const SKILLS = [["React",/\breact\b/i],["Next.js",/next\.?js/i],["TypeScript",/typescript/i],["Node.js",/node(\.js)?\b/i],["AI agents",/agent/i],["LLM",/\bllm|openai|anthropic|claude|gemini|generative/i],["RAG",/\brag\b/i],["MCP",/\bmcp\b/i],["Postgres",/postgres/i],["Go",/\bgo\b/i],["Python",/python/i],["Svelte",/svelte/i]];
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const blob = j => [j.title,j.co,j.loc,j.why,j.note||"",j.years,j.overlap].join(" ");
+JOBS.forEach(j => { j.tags = SKILLS.filter(s => s[1].test(blob(j))).map(s => s[0]); });
+const st = {q:"", pri:new Set(), reg:new Set(), tag:new Set(), onlyNew:false, onlySaved:false, sort:"rank"};
+let saved = new Set();
+try { saved = new Set(JSON.parse(localStorage.getItem("rjr-saved") || "[]")); } catch(e) {}
+const persist = () => { try { localStorage.setItem("rjr-saved", JSON.stringify([...saved])); } catch(e) {} };
+
+function match(j, skip){
+  if (st.q) { const t = blob(j).toLowerCase(); if (!st.q.toLowerCase().split(/\s+/).every(w => t.includes(w))) return false; }
+  if (skip !== "pri" && st.pri.size && !st.pri.has(String(j.pri))) return false;
+  if (skip !== "reg" && st.reg.size && !j.reg.some(r => st.reg.has(r))) return false;
+  if (skip !== "tag" && st.tag.size && ![...st.tag].every(t => j.tags.includes(t))) return false;
+  if (st.onlyNew && j.added !== META.date) return false;
+  if (st.onlySaved && !saved.has(j.id)) return false;
+  return true;
+}
+function card(j){
+  const isNew = j.added === META.date;
+  return `<article class="job" id="job-${esc(j.id)}">
+    <div class="head"><div class="av" aria-hidden="true">${esc(j.co.charAt(0).toUpperCase())}</div>
+      <div class="ti"><div class="badges"><span class="pill p${j.pri}">P${j.pri} · ${LV[j.pri]}</span>${isNew?'<span class="pill new">NEW</span>':''}</div>
+      <h4 style="margin-top:6px">${esc(j.title)}</h4><div class="co">${esc(j.co)}</div></div></div>
+    <div class="meta"><span><b>Location</b> ${esc(j.loc)}</span><span><b>Experience</b> ${esc(j.years)}</span>${j.overlap?`<span><b>Overlap</b> ${esc(j.overlap)}</span>`:""}</div>
+    <p class="why">${esc(j.why)}</p>
+    ${j.tags.length?`<div class="tags">${j.tags.map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</div>`:""}
+    ${j.note?`<div class="note">${esc(j.note)}</div>`:""}
+    <div class="acts"><a class="btn" href="${esc(j.url)}" target="_blank" rel="noopener">Apply on site</a><button type="button" class="ghost" data-save="${esc(j.id)}" aria-pressed="${saved.has(j.id)}">${saved.has(j.id)?"Saved":"Save"}</button>${j.reg.map(r=>`<span class="pill p3">${esc(r)}</span>`).join("")}</div>
+  </article>`;
+}
+function render(){
+  let list = JOBS.filter(j => match(j));
+  if (st.sort === "new") list.sort((a,b) => (b.added > a.added) - (b.added < a.added) || a.pri - b.pri);
+  else if (st.sort === "co") list.sort((a,b) => a.co.localeCompare(b.co));
+  else list.sort((a,b) => a.pri - b.pri || (b.added > a.added) - (b.added < a.added));
+  $("count").textContent = list.length + (list.length === 1 ? " role" : " roles");
+  $("list").innerHTML = list.length ? list.map(card).join("") : '<div class="empty">No roles match these filters. Clear a filter or try a broader search.</div>';
+  filters();
+}
+function group(el, title, items, setKey){
+  el.innerHTML = `<h3>${title}</h3>` + items.map(([val,label,n]) => `<label class="opt"><input type="checkbox" data-k="${setKey}" value="${esc(val)}"${st[setKey].has(val)?" checked":""}>${esc(label)}<em>${n}</em></label>`).join("");
+}
+function filters(){
+  group($("fPri"),"Priority",[1,2,3].map(p => [String(p),`P${p} · ${LV[p]}`,JOBS.filter(j => j.pri === p && match(j,"pri")).length]),"pri");
+  const regs = ["India","USA","Canada","Japan","Saudi","Australia","Africa","Global"].filter(r => JOBS.some(j => j.reg.includes(r)));
+  group($("fReg"),"Region",regs.map(r => [r,r === "Global" ? "Worldwide / Europe" : r,JOBS.filter(j => j.reg.includes(r) && match(j,"reg")).length]),"reg");
+  const tags = SKILLS.map(s => s[0]).filter(t => JOBS.some(j => j.tags.includes(t)));
+  group($("fTag"),"Skills",tags.map(t => [t,t,JOBS.filter(j => j.tags.includes(t) && match(j,"tag")).length]),"tag");
+  $("fMore").innerHTML = `<h3>More</h3><label class="opt"><input type="checkbox" data-k="onlyNew"${st.onlyNew?" checked":""}>New today<em>${JOBS.filter(j => j.added === META.date).length}</em></label><label class="opt"><input type="checkbox" data-k="onlySaved"${st.onlySaved?" checked":""}>Saved only<em>${saved.size}</em></label>`;
+}
+document.addEventListener("change", e => {
+  const k = e.target.dataset && e.target.dataset.k; if (!k) return;
+  if (k === "onlyNew" || k === "onlySaved") st[k] = e.target.checked;
+  else if (e.target.checked) st[k].add(e.target.value); else st[k].delete(e.target.value);
+  render();
+});
+document.addEventListener("click", e => {
+  const b = e.target.closest("[data-save]");
+  if (b) { const id = b.dataset.save; saved.has(id) ? saved.delete(id) : saved.add(id); persist(); render(); return; }
+  const q = e.target.closest("[data-q]");
+  if (q) { $("q").value = q.dataset.q; st.q = q.dataset.q; render(); $("jobs").scrollIntoView(); }
+});
+$("searchForm").addEventListener("submit", e => { e.preventDefault(); st.q = $("q").value.trim(); render(); $("jobs").scrollIntoView(); });
+$("q").addEventListener("input", e => { st.q = e.target.value.trim(); render(); });
+$("sort").addEventListener("change", e => { st.sort = e.target.value; render(); });
+$("clear").addEventListener("click", () => { st.q = ""; $("q").value = ""; st.pri.clear(); st.reg.clear(); st.tag.clear(); st.onlyNew = false; st.onlySaved = false; render(); });
+
+/* static content */
+const nNew = JOBS.filter(j => j.added === META.date).length;
+$("navdate").textContent = "Updated " + META.dateline.replace(/^Daily update · /, "");
+$("todayH").textContent = META.dateline;
+$("updated").textContent = "Refreshed every morning at 9:00 IST";
+$("nums").innerHTML = [[JOBS.length,"open roles"],[nNew,"new today"],[JOBS.filter(j => j.pri === 1).length,"top fit roles"],[new Set(JOBS.map(j => j.co)).size,"companies"]].map(([n,l]) => `<div><b>${n}</b><span>${l}</span></div>`).join("");
+$("signal").innerHTML = "<b>Hiring signal.</b> " + esc(META.signal);
+$("quick").insertAdjacentHTML("beforeend", ["Next.js","AI agents","MCP","TypeScript","India","Japan"].map(t => `<button type="button" class="chip" data-q="${t}">${t}</button>`).join(""));
+$("pickList").innerHTML = JOBS.filter(j => j.pri === 1).slice(0,3).map(j => `<a class="pick" href="${esc(j.url)}" target="_blank" rel="noopener"><div class="row"><div class="av" aria-hidden="true">${esc(j.co.charAt(0).toUpperCase())}</div><div class="co">${esc(j.co)} · ${esc(j.loc)}</div></div><span class="t">${esc(j.title)}</span><p class="why">${esc(j.why)}</p><span class="go">Apply on site →</span></a>`).join("");
+$("regionList").innerHTML = Object.entries(META.regions).map(([k,v]) => `<div><b>${esc(k)}</b><p>${esc(v)}</p></div>`).join("");
+$("boards").textContent = META.boards;
+$("yr").textContent = "Remote Job Radar · " + META.date.slice(0,4);
+if (window.matchMedia("(max-width:860px)").matches) $("fdet").open = false;
+render();
+</script>
