@@ -1,9 +1,8 @@
-
 {
   "meta": {
     "date": "2026-10-06",
     "dateline": "Daily update · Tuesday, 6 October 2026",
-    "signal": "Apple is reported to be expanding AI hiring in India (Sept 2026) and OpenAI is reported to be hiring AI engineers in Delhi and Mumbai. Neither article could be opened, so both are unverified; check the careers pages. Roles that combine UI and agentic work remain scarce, since most agentic listings are Python or backend.",
+    "signal": "47 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
     "regions": {
       "India": "AssetIntel and Raochra are the closest direct matches. The 65+ India agentic listings are almost all Python/LLM roles, not UI.",
       "Japan (English)": "Money Forward (Tokyo) and Metanomaly list no Japanese requirement and are partially remote. HENNGE offers visa sponsorship. Confirm seniority and sponsorship on each page.",
@@ -12,7 +11,7 @@
       "Africa": "DeepSource (Egypt remote, AI company), Yellow Card and Umbrel are open. DuckDuckGo also hires remote across Africa. India-based remote roles in Africa-only listings are not eligible.",
       "Saudi Arabia": "No verified remote UI plus agentic role today. Your SABIC KSA project experience is a plus when you apply."
     },
-    "boards": "Scanned through public pages and search results: reactjobs.io, onlyfrontendjobs, Arc, Himalayas, agentic-engineering-jobs, Hacker News Who is Hiring, TokyoDev, Japan Dev, hiddenjobs.dev, company careers pages. Added regions: Remote Rocketship (Africa), Indeed Nigeria, Glassdoor Australia. Could not scan (login wall, 403 or robots.txt): LinkedIn and Naukri job feeds, Seek, parts of Bayt. Posting dates are not shown on every source, so confirm date and eligibility on each apply link."
+    "boards": "Scanned automatically: Remotive, RemoteOK, Himalayas, We Work Remotely, Hacker News Who is Hiring. LinkedIn, Naukri, Indeed and Glassdoor need a login and are not scanned. Confirm date and eligibility on each apply link."
   },
   "jobs": [
     {
@@ -390,6 +389,753 @@
       "overlap": "",
       "why": "Visa sponsorship, JPY 8.5M-12.5M. Svelte, not React.",
       "url": "https://japan-dev.com/jobs/hennge/hennge-senior-frontend-engineer-svelte----hennge-tadrill-team-qrygiz"
+    },
+    {
+      "id": "lemon-io",
+      "pri": 1,
+      "added": "2026-10-06",
+      "reg": [
+        "Canada",
+        "USA"
+      ],
+      "title": "Senior React Full-stack Developer",
+      "co": "Lemon.io",
+      "loc": "Europe, USA, Canada, APAC",
+      "years": "5+ years",
+      "overlap": "",
+      "why": "Frontend role with agentic AI work (agents, LLMs, MCP or RAG) in the description.",
+      "url": "https://remotive.com/remote-jobs/software-development/senior-react-full-stack-developer-2091133",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "kobotoolbox",
+      "pri": 2,
+      "added": "2026-10-06",
+      "reg": [
+        "Canada",
+        "USA"
+      ],
+      "title": "Frontend Web Application Developer",
+      "co": "KoboToolbox",
+      "loc": "USA, Canada, Argentina, Mexico, Peru",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://remotive.com/remote-jobs/design/frontend-web-application-developer-2091141",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "tremendous",
+      "pri": 2,
+      "added": "2026-10-06",
+      "reg": [
+        "USA"
+      ],
+      "title": "Head of Security",
+      "co": "Tremendous",
+      "loc": "New York, New York, New York, United States",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://remoteOK.com/remote-jobs/remote-head-of-security-tremendous-1136210",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "bright-vision-technologies",
+      "pri": 2,
+      "added": "2026-10-06",
+      "reg": [
+        "USA"
+      ],
+      "title": "React Native Developer",
+      "co": "Bright Vision Technologies",
+      "loc": "United States",
+      "years": "5+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://himalayas.app/companies/bright-vision-technologies/jobs/react-native-developer-7881248963",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "onhires",
+      "pri": 2,
+      "added": "2026-10-06",
+      "reg": [
+        "USA"
+      ],
+      "title": "Frontend Engineer (React/TypeScript)",
+      "co": "OnHires",
+      "loc": "United States",
+      "years": "5+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://himalayas.app/companies/onhires/jobs/frontend-engineer-react-typescript",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "wow-remote-teams",
+      "pri": 2,
+      "added": "2026-10-06",
+      "reg": [
+        "USA"
+      ],
+      "title": "Senior Frontend Web Developer",
+      "co": "WOW Remote Teams",
+      "loc": "United States",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://himalayas.app/companies/wow-remote-teams/jobs/senior-frontend-web-developer",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "writesonic",
+      "pri": 2,
+      "added": "2026-10-06",
+      "reg": [
+        "Global",
+        "India"
+      ],
+      "title": "Senior Software Engineer (Frontend)",
+      "co": "Writesonic",
+      "loc": "India",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://himalayas.app/companies/writesonic/jobs/senior-software-engineer-frontend"
+    },
+    {
+      "id": "adventure-travel-365",
+      "pri": 2,
+      "added": "2026-10-06",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Full-Stack Developer - Marketplace Web & Mobile Platform",
+      "co": "Adventure Travel 365",
+      "loc": "Anywhere in the World",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/adventure-travel-365-senior-full-stack-developer-marketplace-web-mobile-platform"
+    },
+    {
+      "id": "hex-technologies",
+      "pri": 2,
+      "added": "2026-10-06",
+      "reg": [
+        "Global"
+      ],
+      "title": "Cloud Security Engineer",
+      "co": "Hex Technologies",
+      "loc": "Anywhere in the World",
+      "years": "5+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/hex-technologies-cloud-security-engineer"
+    },
+    {
+      "id": "toggl",
+      "pri": 2,
+      "added": "2026-10-06",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Full Stack",
+      "co": "Toggl",
+      "loc": "Anywhere in the World",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/toggl-senior-full-stack"
+    },
+    {
+      "id": "edfinity",
+      "pri": 2,
+      "added": "2026-10-06",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Software Engineer, remote",
+      "co": "Edfinity",
+      "loc": "Anywhere in the World",
+      "years": "15+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/edfinity-senior-software-engineer-remote"
+    },
+    {
+      "id": "samsara",
+      "pri": 2,
+      "added": "2026-10-06",
+      "reg": [
+        "Global"
+      ],
+      "title": "Staff Software Engineer",
+      "co": "Samsara",
+      "loc": "Anywhere in the World",
+      "years": "8+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/samsara-staff-software-engineer"
+    },
+    {
+      "id": "snout-https-snout-com",
+      "pri": 2,
+      "added": "2026-10-06",
+      "reg": [
+        "Canada",
+        "USA"
+      ],
+      "title": "Multiple Engineering + Product Roles",
+      "co": "Snout https://snout.com/",
+      "loc": "Remote US or Ontario, Canada Full Time Join us at Snout on our mission to ensure no one ev",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://news.ycombinator.com/item?id=49922621",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "rmg",
+      "pri": 2,
+      "added": "2026-10-06",
+      "reg": [
+        "Canada",
+        "USA"
+      ],
+      "title": "Sr. WordPress Engineer",
+      "co": "RMG",
+      "loc": "$100-150k REMOTE (US/Canada) We run 100+ WordPress and Next.js properties and we're rebuil",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://news.ycombinator.com/item?id=49922829",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "river",
+      "pri": 2,
+      "added": "2026-10-06",
+      "reg": [
+        "USA"
+      ],
+      "title": "Staff Engineers (Elixir)",
+      "co": "River",
+      "loc": "NYC or REMOTE (US, Europe, South America) Full-Time",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://news.ycombinator.com/item?id=49923010",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "starbridge",
+      "pri": 2,
+      "added": "2026-10-06",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Product Engineer",
+      "co": "Starbridge",
+      "loc": "NYC or Remote Full-time",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://news.ycombinator.com/item?id=49923756",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "city-detect",
+      "pri": 2,
+      "added": "2026-10-06",
+      "reg": [
+        "USA"
+      ],
+      "title": "Full Stack Product Engineer (Design & Geospatial)",
+      "co": "City Detect",
+      "loc": "Tuscaloosa, AL REMOTE (US)",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://news.ycombinator.com/item?id=49924016",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "sudowrite",
+      "pri": 2,
+      "added": "2026-10-06",
+      "reg": [
+        "USA"
+      ],
+      "title": "https://sudowrite.com",
+      "co": "Sudowrite",
+      "loc": "√ REMOTE (US) √ PMF",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://news.ycombinator.com/item?id=49924556",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "postscript",
+      "pri": 2,
+      "added": "2026-10-06",
+      "reg": [
+        "Canada",
+        "USA"
+      ],
+      "title": "Senior Full Stack Engineer",
+      "co": "Postscript",
+      "loc": "REMOTE (US or Canada) $180k-$200k + Equity Postscript powers SMS marketing and automated r",
+      "years": "6+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://news.ycombinator.com/item?id=49926951",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "rinse",
+      "pri": 2,
+      "added": "2026-10-06",
+      "reg": [
+        "Global"
+      ],
+      "title": "REMOTE (US or Canada) or San Francisco, Los Angeles, Chicago, Boston, New York City, New Jersey, Seattle, Austin, Toront",
+      "co": "RINSE",
+      "loc": "Software Engineer Full-Time",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://news.ycombinator.com/item?id=49927692",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "all-gravy",
+      "pri": 2,
+      "added": "2026-10-06",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Software Engineer (Full-stack TypeScript)",
+      "co": "All Gravy",
+      "loc": "Copenhagen or London REMOTE (European time zones) or ONSITE",
+      "years": "5+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://news.ycombinator.com/item?id=49928066",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "search-atlas",
+      "pri": 2,
+      "added": "2026-10-06",
+      "reg": [
+        "Global"
+      ],
+      "title": "Product Engineer (Product Manager role, not a Full-stack role)",
+      "co": "Search Atlas",
+      "loc": "REMOTE (anywhere, EST hours) Full-time contractor",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://news.ycombinator.com/item?id=49931746"
+    },
+    {
+      "id": "hifi-labs-https-hifilabs-co",
+      "pri": 2,
+      "added": "2026-10-06",
+      "reg": [
+        "USA"
+      ],
+      "title": "Equity + Salary",
+      "co": "HIFI Labs ( https://hifilabs.co )",
+      "loc": "San Francisco / Remote (PST) Senior Fullstack Engineer / Engineering Manager Americas Join",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://news.ycombinator.com/item?id=49933969",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "prophet-town-llc",
+      "pri": 2,
+      "added": "2026-10-06",
+      "reg": [
+        "USA"
+      ],
+      "title": "Various Software Engineering Roles",
+      "co": "Prophet Town LLC",
+      "loc": "US – Remote and Hybrid English fluency required",
+      "years": "10+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://news.ycombinator.com/item?id=49940381",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "opaxa",
+      "pri": 2,
+      "added": "2026-10-06",
+      "reg": [
+        "USA"
+      ],
+      "title": "Founding Engineer, Forward Deployed (full-stack)",
+      "co": "Opaxa",
+      "loc": "San Francisco Bay Area preferred, REMOTE (US) considered Full-time",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://news.ycombinator.com/item?id=49961408",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "revieve-oy",
+      "pri": 2,
+      "added": "2026-10-06",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Product Engineer",
+      "co": "Revieve Oy",
+      "loc": "REMOTE [Europe / (GMT+2)] Contract, full-time",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://news.ycombinator.com/item?id=49962075",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "albert",
+      "pri": 2,
+      "added": "2026-10-06",
+      "reg": [
+        "Global",
+        "USA"
+      ],
+      "title": "REMOTE ALMOST ANYWHERE IN THE WORLD",
+      "co": "ALBERT",
+      "loc": "Hiring principal and distinguished engineers to build net new products up to ~ $750k Hirin",
+      "years": "6+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://news.ycombinator.com/item?id=49964448"
+    },
+    {
+      "id": "sanctuary-computer-inc",
+      "pri": 3,
+      "added": "2026-10-06",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Shopify Developer",
+      "co": "Sanctuary Computer Inc",
+      "loc": "Worldwide",
+      "years": "8+ years",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://remotive.com/remote-jobs/software-development/senior-shopify-developer-2091140"
+    },
+    {
+      "id": "sanctuary-computer",
+      "pri": 3,
+      "added": "2026-10-06",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Shopify Developer",
+      "co": "Sanctuary Computer",
+      "loc": "Worldwide",
+      "years": "8+ years",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-shopify-developer-sanctuary-computer-1137405"
+    },
+    {
+      "id": "extrahop",
+      "pri": 3,
+      "added": "2026-10-06",
+      "reg": [
+        "Global"
+      ],
+      "title": "Sr Solutions Architect",
+      "co": "ExtraHop",
+      "loc": "Remote",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://remoteOK.com/remote-jobs/remote-sr-solutions-architect-extrahop-1137394",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "control-shift-video",
+      "pri": 3,
+      "added": "2026-10-06",
+      "reg": [
+        "Global"
+      ],
+      "title": "Freelance Designer",
+      "co": "Control Shift Video",
+      "loc": "Texas,",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://remoteOK.com/remote-jobs/remote-freelance-designer-control-shift-video-1136213",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "pradeepit-consulting-services-pvt-ltd",
+      "pri": 3,
+      "added": "2026-10-06",
+      "reg": [
+        "USA"
+      ],
+      "title": "React Developer",
+      "co": "PradeepIT Consulting Services Pvt Ltd",
+      "loc": "United States",
+      "years": "6+ years",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://himalayas.app/companies/pradeepit-consulting-services-pvt-ltd/jobs/react-developer",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "transilvaniahr",
+      "pri": 3,
+      "added": "2026-10-06",
+      "reg": [
+        "USA"
+      ],
+      "title": "Senior React Software Engineer (Romania, Remote)",
+      "co": "TransilvaniaHR",
+      "loc": "United States",
+      "years": "6+ years",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://himalayas.app/companies/transilvaniahr/jobs/senior-react-software-engineer-romania-remote",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "bluelight-consulting",
+      "pri": 3,
+      "added": "2026-10-06",
+      "reg": [
+        "Global"
+      ],
+      "title": "React Native Developer - Latin America, Remote",
+      "co": "Bluelight Consulting",
+      "loc": "Colombia",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://himalayas.app/companies/bluelight-consulting/jobs/react-native-developer-latin-america-remote-9856728939",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "roclub",
+      "pri": 3,
+      "added": "2026-10-06",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Frontend Developer (m/w/d) React, Next.js & TypeScript",
+      "co": "roclub",
+      "loc": "Germany",
+      "years": "5+ years",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://himalayas.app/companies/roclub/jobs/senior-frontend-developer-m-w-d-react-next-js-typescript",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "appmysite",
+      "pri": 3,
+      "added": "2026-10-06",
+      "reg": [
+        "USA"
+      ],
+      "title": "Lead Front-End Developer - React.js",
+      "co": "AppMySite",
+      "loc": "United States",
+      "years": "8+ years",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://himalayas.app/companies/appmysite/jobs/lead-front-end-developer-react-js",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "nomina",
+      "pri": 3,
+      "added": "2026-10-06",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Frontend Engineer",
+      "co": "Nomina",
+      "loc": "Worldwide",
+      "years": "5+ years",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://himalayas.app/companies/nomina/jobs/senior-frontend-engineer-7964431358"
+    },
+    {
+      "id": "proxify-ab",
+      "pri": 3,
+      "added": "2026-10-06",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Fullstack Developer (React.js / Node.js)",
+      "co": "Proxify AB",
+      "loc": "Anywhere in the World",
+      "years": "5+ years",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-fullstack-developer-react-js-node-js-4"
+    },
+    {
+      "id": "yooli",
+      "pri": 3,
+      "added": "2026-10-06",
+      "reg": [
+        "Global"
+      ],
+      "title": "FULL TIME: Software Engineer Position - React and Rest",
+      "co": "Yooli",
+      "loc": "Anywhere in the World",
+      "years": "7+ years",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://weworkremotely.com/remote-jobs/yooli-full-time-software-engineer-position-react-and-rest-1"
+    },
+    {
+      "id": "relevant-healthcare",
+      "pri": 3,
+      "added": "2026-10-06",
+      "reg": [
+        "Canada",
+        "USA"
+      ],
+      "title": "Lead Engineer",
+      "co": "Relevant Healthcare",
+      "loc": "Remote (US/Canada only) Full-time Relevant builds a data platform that helps safety-net he",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://news.ycombinator.com/item?id=49923964",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "solace-health",
+      "pri": 3,
+      "added": "2026-10-06",
+      "reg": [
+        "USA"
+      ],
+      "title": "Multiple Engineering Roles",
+      "co": "Solace Health",
+      "loc": "REMOTE (US) Full-time",
+      "years": "5+ years",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://news.ycombinator.com/item?id=49924327",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "discord",
+      "pri": 3,
+      "added": "2026-10-06",
+      "reg": [
+        "USA"
+      ],
+      "title": "Senior Software Engineer, Application Security",
+      "co": "Discord",
+      "loc": "REMOTE (US West Coast) or San Francisco, CA $196K-$245K base + equity Discord is where com",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://news.ycombinator.com/item?id=49925063",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "descartes-finale-inventory",
+      "pri": 3,
+      "added": "2026-10-06",
+      "reg": [
+        "USA"
+      ],
+      "title": "Senior Software Engineer",
+      "co": "Descartes - Finale Inventory",
+      "loc": "REMOTE Full-Time Finale Inventory is a SaaS application that helps ecommerce sellers manag",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://news.ycombinator.com/item?id=49925469",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "paramark",
+      "pri": 3,
+      "added": "2026-10-06",
+      "reg": [
+        "USA"
+      ],
+      "title": "Software Engineer (L4)",
+      "co": "Paramark",
+      "loc": "San Francisco HYBRID (3 days/wk) or REMOTE (US) Full-time",
+      "years": "8+ years",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://news.ycombinator.com/item?id=49925497",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "cardog",
+      "pri": 3,
+      "added": "2026-10-06",
+      "reg": [
+        "Global"
+      ],
+      "title": "Toronto, Ontario",
+      "co": "Cardog",
+      "loc": "ONSITE, HYBRID, REMOTE (role-dependent) Full-time",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://news.ycombinator.com/item?id=49926872",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "serpapi",
+      "pri": 3,
+      "added": "2026-10-06",
+      "reg": [
+        "Global"
+      ],
+      "title": "https://serpapi.com",
+      "co": "SerpApi",
+      "loc": "Junior to Senior Fullstack Engineer multiple positions Customer Success Engineer",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://news.ycombinator.com/item?id=49929200",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "vistulo",
+      "pri": 3,
+      "added": "2026-10-06",
+      "reg": [
+        "USA"
+      ],
+      "title": "Senior Java, C#, React & Calypso engineers, Calypso BA/PO",
+      "co": "Vistulo",
+      "loc": "REMOTE (Poland or Romania) B2B contract, pay ranges below Vistulo hires engineers in Polan",
+      "years": "7+ years",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://news.ycombinator.com/item?id=49930656",
+      "note": "Check eligibility from India"
     }
   ]
 }
