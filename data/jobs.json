@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-10-06",
-    "dateline": "Daily update · Tuesday, 6 October 2026",
-    "signal": "47 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
+    "date": "2026-10-07",
+    "dateline": "Daily update · Wednesday, 7 October 2026",
+    "signal": "3 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
     "regions": {
       "India": "AssetIntel and Raochra are the closest direct matches. The 65+ India agentic listings are almost all Python/LLM roles, not UI.",
       "Japan (English)": "Money Forward (Tokyo) and Metanomaly list no Japanese requirement and are partially remote. HENNGE offers visa sponsorship. Confirm seniority and sponsorship on each page.",
@@ -1135,6 +1135,54 @@
       "overlap": "",
       "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
       "url": "https://news.ycombinator.com/item?id=49930656",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "acquisity",
+      "pri": 1,
+      "added": "2026-10-07",
+      "reg": [
+        "USA"
+      ],
+      "title": "Senior Full-Stack Engineer (Next.js / AI)",
+      "co": "Acquisity",
+      "loc": "United States",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "Frontend role with agentic AI work (agents, LLMs, MCP or RAG) in the description.",
+      "url": "https://himalayas.app/companies/acquisity/jobs/senior-full-stack-engineer-next-js-ai",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "manifest",
+      "pri": 2,
+      "added": "2026-10-07",
+      "reg": [
+        "Global",
+        "USA"
+      ],
+      "title": "https://www.manifestcyber.com/",
+      "co": "Manifest",
+      "loc": "REMOTE (US) Full Time Manifest is on a mission to secure the global software and AI supply",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://news.ycombinator.com/item?id=49987144"
+    },
+    {
+      "id": "purchasely",
+      "pri": 3,
+      "added": "2026-10-07",
+      "reg": [
+        "Global"
+      ],
+      "title": "https://www.purchasely.com",
+      "co": "Purchasely",
+      "loc": "Senior iOS SDK Engineer Paris, France",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://news.ycombinator.com/item?id=49980867",
       "note": "Check eligibility from India"
     }
   ]
