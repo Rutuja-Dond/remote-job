@@ -2,8 +2,9 @@ name: Daily job update
 
 on:
   schedule:
-    - cron: "30 3 * * *"   # 03:30 UTC = 9:00 AM IST (GitHub may start it a few minutes late)
-  workflow_dispatch: {}      # lets you run it by hand from the Actions tab
+    - cron: "47 2 * * *"   # 8:17 AM IST, early, so a delay still lands before 9
+    - cron: "30 4 * * *"   # 10:00 AM IST backup, in case the first run is skipped
+  workflow_dispatch: {}
 
 permissions:
   contents: write
