@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-10-07",
-    "dateline": "Daily update · Wednesday, 7 October 2026",
-    "signal": "3 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
+    "date": "2026-10-08",
+    "dateline": "Daily update · Thursday, 8 October 2026",
+    "signal": "1 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
     "regions": {
       "India": "AssetIntel and Raochra are the closest direct matches. The 65+ India agentic listings are almost all Python/LLM roles, not UI.",
       "Japan (English)": "Money Forward (Tokyo) and Metanomaly list no Japanese requirement and are partially remote. HENNGE offers visa sponsorship. Confirm seniority and sponsorship on each page.",
@@ -1183,6 +1183,22 @@
       "overlap": "",
       "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
       "url": "https://news.ycombinator.com/item?id=49980867",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "people-profilers-vietnam",
+      "pri": 3,
+      "added": "2026-10-08",
+      "reg": [
+        "Japan"
+      ],
+      "title": "Senior Full Stack Engineer (Next.js/Node.js /Fully Remote)",
+      "co": "People Profilers Vietnam",
+      "loc": "Japan",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://himalayas.app/companies/people-profilers-vietnam/jobs/senior-full-stack-engineer-next-js-node-js-fully-remote",
       "note": "Check eligibility from India"
     }
   ]
