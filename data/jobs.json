@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-10-12",
-    "dateline": "Daily update · Monday, 12 October 2026",
-    "signal": "0 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
+    "date": "2026-10-13",
+    "dateline": "Daily update · Tuesday, 13 October 2026",
+    "signal": "3 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
     "regions": {
       "India": "AssetIntel and Raochra are the closest direct matches. The 65+ India agentic listings are almost all Python/LLM roles, not UI.",
       "Japan (English)": "Money Forward (Tokyo) and Metanomaly list no Japanese requirement and are partially remote. HENNGE offers visa sponsorship. Confirm seniority and sponsorship on each page.",
@@ -1262,6 +1262,55 @@
       "overlap": "",
       "why": "React or full-stack role with AI features in the product.",
       "url": "https://remoteOK.com/remote-jobs/remote-product-engineering-lead-tether-operations-limited-1137478"
+    },
+    {
+      "id": "humanit-digital-consulting",
+      "pri": 2,
+      "added": "2026-10-13",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior/Staff Frontend Engineer (Next.js/JavaScript) - Portugal Full Remote",
+      "co": "HumanIT Digital Consulting",
+      "loc": "Portugal",
+      "years": "9+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://himalayas.app/companies/humanit-digital-consulting/jobs/senior-staff-frontend-engineer-next-js-javascript-portugal-full-remote",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "startuphakk",
+      "pri": 2,
+      "added": "2026-10-13",
+      "reg": [
+        "Global"
+      ],
+      "title": "AI Engineer Apprentice",
+      "co": "StartupHakk",
+      "loc": "Remote (UT or ID residents only) Full-time",
+      "years": "18+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://news.ycombinator.com/item?id=50059584",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "irash-tech",
+      "pri": 2,
+      "added": "2026-10-13",
+      "reg": [
+        "Global",
+        "India",
+        "USA"
+      ],
+      "title": "Business Development Manager (Freelance, Commission-only)",
+      "co": "Irash Tech",
+      "loc": "REMOTE (Worldwide) Contract Irash Tech is a small AI-focused development agency based in H",
+      "years": "7+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://news.ycombinator.com/item?id=50068986"
     }
   ]
 }
