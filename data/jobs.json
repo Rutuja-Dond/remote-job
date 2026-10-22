@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-10-21",
-    "dateline": "Daily update · Wednesday, 21 October 2026",
-    "signal": "0 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
+    "date": "2026-10-22",
+    "dateline": "Daily update · Thursday, 22 October 2026",
+    "signal": "2 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
     "regions": {
       "India": "AssetIntel and Raochra are the closest direct matches. The 65+ India agentic listings are almost all Python/LLM roles, not UI.",
       "Japan (English)": "Money Forward (Tokyo) and Metanomaly list no Japanese requirement and are partially remote. HENNGE offers visa sponsorship. Confirm seniority and sponsorship on each page.",
@@ -1402,6 +1402,36 @@
       "overlap": "",
       "why": "React or full-stack role with AI features in the product.",
       "url": "https://weworkremotely.com/remote-jobs/alloy-founding-forward-deployed-engineer"
+    },
+    {
+      "id": "dualentry",
+      "pri": 2,
+      "added": "2026-10-22",
+      "reg": [
+        "Global"
+      ],
+      "title": "Frontend Software Engineer (Mid-Level)",
+      "co": "DualEntry",
+      "loc": "Worldwide",
+      "years": "5+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://himalayas.app/companies/dualentry/jobs/frontend-software-engineer-mid-level-7781816248?utm_source=api"
+    },
+    {
+      "id": "affirm",
+      "pri": 2,
+      "added": "2026-10-22",
+      "reg": [
+        "Global"
+      ],
+      "title": "Analytics Engineer II, Full Stack (Revenue Analytics)",
+      "co": "Affirm",
+      "loc": "Anywhere in the World",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/affirm-analytics-engineer-ii-full-stack-revenue-analytics"
     }
   ]
 }
