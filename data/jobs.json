@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-10-26",
-    "dateline": "Daily update · Monday, 26 October 2026",
-    "signal": "0 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
+    "date": "2026-10-27",
+    "dateline": "Daily update · Tuesday, 27 October 2026",
+    "signal": "7 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
     "regions": {
       "India": "AssetIntel and Raochra are the closest direct matches. The 65+ India agentic listings are almost all Python/LLM roles, not UI.",
       "Japan (English)": "Money Forward (Tokyo) and Metanomaly list no Japanese requirement and are partially remote. HENNGE offers visa sponsorship. Confirm seniority and sponsorship on each page.",
@@ -127,54 +127,6 @@
       "note": "Check location eligibility"
     },
     {
-      "id": "gcai",
-      "pri": 1,
-      "added": "2026-10-05",
-      "reg": [
-        "USA",
-        "Canada"
-      ],
-      "title": "Member of Technical Staff, Applied AI",
-      "co": "GC AI",
-      "loc": "Remote, US and Canada",
-      "years": "Senior",
-      "overlap": "",
-      "why": "Deep, recent TypeScript and React production experience building LLM features. Pay $180K-$430K plus equity.",
-      "url": "https://hnhiring.com/locations/remote",
-      "note": "Apply by email in the Hacker News post"
-    },
-    {
-      "id": "lumimeds",
-      "pri": 1,
-      "added": "2026-10-05",
-      "reg": [
-        "USA"
-      ],
-      "title": "Senior Frontend Engineer (Next.js and React, AI-Native)",
-      "co": "Lumimeds",
-      "loc": "Remote, LATAM / Eastern Europe, US hours",
-      "years": "Senior",
-      "overlap": "US hours",
-      "why": "Next.js App Router, Claude Agent SDK and agent pipelines.",
-      "url": "https://job-boards.greenhouse.io/lumimeds/jobs/4205821009",
-      "note": "India probably not eligible, ask first"
-    },
-    {
-      "id": "curai",
-      "pri": 1,
-      "added": "2026-10-05",
-      "reg": [
-        "USA"
-      ],
-      "title": "Senior Software Engineer, Agentic AI",
-      "co": "Curai",
-      "loc": "Remote, US",
-      "years": "Senior",
-      "overlap": "",
-      "why": "Agentic AI for healthcare. Confirm how much of the role is UI.",
-      "url": "https://jobs.lever.co/curai/cd31b67b-d83c-466a-ac55-cfa4c2ec4237"
-    },
-    {
       "id": "assetintel",
       "pri": 2,
       "added": "2026-10-06",
@@ -281,36 +233,6 @@
       "url": "https://www.tokyodev.com/companies/metanomaly/jobs/fullstack-engineer-growth"
     },
     {
-      "id": "seeq",
-      "pri": 2,
-      "added": "2026-10-05",
-      "reg": [
-        "USA"
-      ],
-      "title": "Senior Full-Stack Engineer (React, JVM, Postgres)",
-      "co": "Seeq",
-      "loc": "Remote, Pacific crossover",
-      "years": "Senior",
-      "overlap": "Pacific crossover",
-      "why": "Generative AI features inside an analytics platform.",
-      "url": "https://apply.workable.com/seeq/j/763AE68666/"
-    },
-    {
-      "id": "eventfirst",
-      "pri": 2,
-      "added": "2026-10-05",
-      "reg": [
-        "Global"
-      ],
-      "title": "Senior Full-Stack Engineer",
-      "co": "eventfirst",
-      "loc": "Remote, CET timezone",
-      "years": "Senior",
-      "overlap": "CET, about 3:30pm-8:30pm IST window works",
-      "why": "Product and UX focus with an AI chat product experience wanted.",
-      "url": "https://eventfirst.jobs.personio.com/job/2821432/apply"
-    },
-    {
       "id": "duckduckgo",
       "pri": 3,
       "added": "2026-10-06",
@@ -327,68 +249,6 @@
       "why": "Pure senior React and TypeScript frontend role.",
       "url": "https://www.onlyfrontendjobs.com/jobs/senior-frontend-engineer-react-typescript-duckduckgo-1106",
       "note": "India not listed"
-    },
-    {
-      "id": "zerta",
-      "pri": 3,
-      "added": "2026-10-05",
-      "reg": [
-        "India",
-        "Global"
-      ],
-      "title": "Senior Frontend Engineer (React / TypeScript)",
-      "co": "Zerta",
-      "loc": "Worldwide",
-      "years": "Senior",
-      "overlap": "",
-      "why": "Open to India.",
-      "url": "https://hiddenjobs.dev/company/zerta/jobs/senior-frontend-engineer-react-typescript-d7a2aee3/"
-    },
-    {
-      "id": "verensoft",
-      "pri": 3,
-      "added": "2026-10-05",
-      "reg": [
-        "USA",
-        "Canada"
-      ],
-      "title": "Senior Frontend Developer",
-      "co": "Verensoft",
-      "loc": "Remote, US and Canada",
-      "years": "Senior",
-      "overlap": "",
-      "why": "TypeScript and React.",
-      "url": "https://hiddenjobs.dev/company/verensoft/jobs/senior-frontend-developer-9cff2cbd/"
-    },
-    {
-      "id": "arcfs",
-      "pri": 3,
-      "added": "2026-10-05",
-      "reg": [
-        "USA"
-      ],
-      "title": "Senior Full-Stack Developer (Next.js, React)",
-      "co": "Arc Exclusive",
-      "loc": "Remote, Pacific Time overlap",
-      "years": "Senior",
-      "overlap": "Pacific time",
-      "why": "Full-time Next.js and React role, 80K-120K.",
-      "url": "https://arc.dev/remote-jobs/details/senior-full-stack-developer-pkmiiyi85w"
-    },
-    {
-      "id": "hennge",
-      "pri": 3,
-      "added": "2026-10-05",
-      "reg": [
-        "Japan"
-      ],
-      "title": "Senior Frontend Engineer (Svelte)",
-      "co": "HENNGE",
-      "loc": "Tokyo, partially remote",
-      "years": "Senior",
-      "overlap": "",
-      "why": "Visa sponsorship, JPY 8.5M-12.5M. Svelte, not React.",
-      "url": "https://japan-dev.com/jobs/hennge/hennge-senior-frontend-engineer-svelte----hennge-tadrill-team-qrygiz"
     },
     {
       "id": "lemon-io",
@@ -1478,6 +1338,116 @@
       "why": "React or full-stack role with AI features in the product.",
       "url": "https://himalayas.app/companies/devfixr/jobs/fullstack-engineer-next-js-typescript?utm_source=api",
       "note": "Check eligibility from India"
+    },
+    {
+      "id": "eventfirst",
+      "pri": 1,
+      "added": "2026-10-27",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Full-Stack Engineer",
+      "co": "eventfirst",
+      "loc": "Berlin, Germany REMOTE (CET)",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "Frontend role with agentic AI work (agents, LLMs, MCP or RAG) in the description.",
+      "url": "https://news.ycombinator.com/item?id=49930919",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "wagmo",
+      "pri": 2,
+      "added": "2026-10-27",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Software Engineer LATAM",
+      "co": "Wagmo",
+      "loc": "Worldwide",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-latam-wagmo-1137572"
+    },
+    {
+      "id": "stockx",
+      "pri": 2,
+      "added": "2026-10-27",
+      "reg": [
+        "Global"
+      ],
+      "title": "Director, Category Growth (General Manager)",
+      "co": "StockX",
+      "loc": "Anywhere in the World",
+      "years": "10+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/stockx-director-category-growth-general-manager"
+    },
+    {
+      "id": "curai",
+      "pri": 2,
+      "added": "2026-10-27",
+      "reg": [
+        "Global"
+      ],
+      "title": "Remote (US)",
+      "co": "Curai",
+      "loc": "Full-time https://curaihealth.com We're building AI agents to expand access to affordable,",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://news.ycombinator.com/item?id=49924974",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "seeq",
+      "pri": 2,
+      "added": "2026-10-27",
+      "reg": [
+        "Global"
+      ],
+      "title": "https://seeq.com",
+      "co": "Seeq",
+      "loc": "Staff/Principal Software Engineer (Full-Stack, AI, Backend, Platform) REMOTE (Some crossov",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://news.ycombinator.com/item?id=49929522",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "gc-ai",
+      "pri": 2,
+      "added": "2026-10-27",
+      "reg": [
+        "Canada",
+        "USA"
+      ],
+      "title": "Member of Technical Staff, Applied AI",
+      "co": "GC AI",
+      "loc": "REMOTE (US/Canada) $180K–$430K + equity GC AI is building an AI platform for in-house lega",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://news.ycombinator.com/item?id=49943713",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "vested-inc",
+      "pri": 3,
+      "added": "2026-10-27",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Software Engineer",
+      "co": "Vested, Inc.",
+      "loc": "Anywhere in the World",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://weworkremotely.com/remote-jobs/vested-inc-senior-software-engineer-1"
     }
   ]
 }
