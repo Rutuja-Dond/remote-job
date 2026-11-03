@@ -2,7 +2,7 @@
   "meta": {
     "date": "2026-11-03",
     "dateline": "Daily update · Tuesday, 3 November 2026",
-    "signal": "8 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
+    "signal": "2 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
     "regions": {
       "India": "AssetIntel and Raochra are the closest direct matches. The 65+ India agentic listings are almost all Python/LLM roles, not UI.",
       "Japan (English)": "Money Forward (Tokyo) and Metanomaly list no Japanese requirement and are partially remote. HENNGE offers visa sponsorship. Confirm seniority and sponsorship on each page.",
@@ -1224,6 +1224,37 @@
       "overlap": "",
       "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
       "url": "https://news.ycombinator.com/item?id=50349000",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "proofline",
+      "pri": 2,
+      "added": "2026-11-03",
+      "reg": [
+        "Global"
+      ],
+      "title": "Founding Staff / Principal Engineer",
+      "co": "Proofline",
+      "loc": "REMOTE (Worldwide, Berlin timezone overlap preferred) Full-time",
+      "years": "10+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://news.ycombinator.com/item?id=50350810"
+    },
+    {
+      "id": "marker-learning",
+      "pri": 3,
+      "added": "2026-11-03",
+      "reg": [
+        "USA"
+      ],
+      "title": "Senior Full-Stack Engineer (Frontend-Leaning)",
+      "co": "Marker Learning",
+      "loc": "Full-time [Remote, US only]",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://news.ycombinator.com/item?id=50350981",
       "note": "Check eligibility from India"
     }
   ]
