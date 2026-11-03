@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-11-02",
-    "dateline": "Daily update · Monday, 2 November 2026",
-    "signal": "0 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
+    "date": "2026-11-03",
+    "dateline": "Daily update · Tuesday, 3 November 2026",
+    "signal": "8 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
     "regions": {
       "India": "AssetIntel and Raochra are the closest direct matches. The 65+ India agentic listings are almost all Python/LLM roles, not UI.",
       "Japan (English)": "Money Forward (Tokyo) and Metanomaly list no Japanese requirement and are partially remote. HENNGE offers visa sponsorship. Confirm seniority and sponsorship on each page.",
@@ -1098,6 +1098,133 @@
       "overlap": "",
       "why": "React or full-stack role with AI features in the product.",
       "url": "https://remoteOK.com/remote-jobs/remote-product-engineering-lead-tether-operations-limited-1137478"
+    },
+    {
+      "id": "postscript-yc-w19",
+      "pri": 1,
+      "added": "2026-11-03",
+      "reg": [
+        "Canada",
+        "USA"
+      ],
+      "title": "Senior Software Engineer, Full Stack",
+      "co": "Postscript (YC W19)",
+      "loc": "REMOTE (US, Canada) Full-time",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "Frontend role with agentic AI work (agents, LLMs, MCP or RAG) in the description.",
+      "url": "https://news.ycombinator.com/item?id=50340820",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "railway",
+      "pri": 1,
+      "added": "2026-11-03",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Growth Marketer, Senior Product Marketer, Account Executive, Scale, Senior Product Eng (full-stack)",
+      "co": "Railway",
+      "loc": "REMOTE (Worldwide) https://railway.com/careers Do you feel scared and alone when opening t",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "Frontend role with agentic AI work (agents, LLMs, MCP or RAG) in the description.",
+      "url": "https://news.ycombinator.com/item?id=50345025"
+    },
+    {
+      "id": "welcomehome-software",
+      "pri": 2,
+      "added": "2026-11-03",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Software Engineer",
+      "co": "WelcomeHome Software",
+      "loc": "Anywhere in the World",
+      "years": "5+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/welcomehome-software-senior-software-engineer"
+    },
+    {
+      "id": "scento",
+      "pri": 2,
+      "added": "2026-11-03",
+      "reg": [
+        "Global"
+      ],
+      "title": "Paris, Berlin",
+      "co": "Scento",
+      "loc": "REMOTE (EU) or ONSITE Full-time",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://news.ycombinator.com/item?id=50349294",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "blackbird",
+      "pri": 3,
+      "added": "2026-11-03",
+      "reg": [
+        "USA"
+      ],
+      "title": "Dev Shop",
+      "co": "Blackbird",
+      "loc": "Remote (US only) Contract Blackbird builds web, mobile, IoT products for startups and inno",
+      "years": "5+ years",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://news.ycombinator.com/item?id=50342576",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "eleshop",
+      "pri": 3,
+      "added": "2026-11-03",
+      "reg": [
+        "Africa"
+      ],
+      "title": "Senior PHP Full-stack engineer",
+      "co": "Eleshop",
+      "loc": "REMOTE (Europe, Africa, W Asia) Eleshop is a supplier of test, measurement and soldering e",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://news.ycombinator.com/item?id=50343534",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "reddit",
+      "pri": 3,
+      "added": "2026-11-03",
+      "reg": [
+        "USA"
+      ],
+      "title": "Senior and Staff Full-stack Engineers",
+      "co": "Reddit",
+      "loc": "REMOTE(US) Full Time Reddit's Developer Platform team (my team) is hiring! Come work with ",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://news.ycombinator.com/item?id=50347217",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "blockrotate",
+      "pri": 3,
+      "added": "2026-11-03",
+      "reg": [
+        "USA"
+      ],
+      "title": "Senior Systems / Rust Engineer",
+      "co": "Blockrotate",
+      "loc": "Remote (US/EU timezones preferred) Full-time",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://news.ycombinator.com/item?id=50349000",
+      "note": "Check eligibility from India"
     }
   ]
 }
