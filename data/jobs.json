@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-11-03",
-    "dateline": "Daily update · Tuesday, 3 November 2026",
-    "signal": "2 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
+    "date": "2026-11-04",
+    "dateline": "Daily update · Wednesday, 4 November 2026",
+    "signal": "6 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
     "regions": {
       "India": "AssetIntel and Raochra are the closest direct matches. The 65+ India agentic listings are almost all Python/LLM roles, not UI.",
       "Japan (English)": "Money Forward (Tokyo) and Metanomaly list no Japanese requirement and are partially remote. HENNGE offers visa sponsorship. Confirm seniority and sponsorship on each page.",
@@ -14,55 +14,6 @@
     "boards": "Scanned automatically: Remotive, RemoteOK, Himalayas, We Work Remotely, Hacker News Who is Hiring. LinkedIn, Naukri, Indeed and Glassdoor need a login and are not scanned. Confirm date and eligibility on each apply link."
   },
   "jobs": [
-    {
-      "id": "humanit-digital-consulting",
-      "pri": 2,
-      "added": "2026-10-13",
-      "reg": [
-        "Global"
-      ],
-      "title": "Senior/Staff Frontend Engineer (Next.js/JavaScript) - Portugal Full Remote",
-      "co": "HumanIT Digital Consulting",
-      "loc": "Portugal",
-      "years": "9+ years",
-      "overlap": "",
-      "why": "React or full-stack role with AI features in the product.",
-      "url": "https://himalayas.app/companies/humanit-digital-consulting/jobs/senior-staff-frontend-engineer-next-js-javascript-portugal-full-remote",
-      "note": "Check eligibility from India"
-    },
-    {
-      "id": "startuphakk",
-      "pri": 2,
-      "added": "2026-10-13",
-      "reg": [
-        "Global"
-      ],
-      "title": "AI Engineer Apprentice",
-      "co": "StartupHakk",
-      "loc": "Remote (UT or ID residents only) Full-time",
-      "years": "18+ years",
-      "overlap": "",
-      "why": "React or full-stack role with AI features in the product.",
-      "url": "https://news.ycombinator.com/item?id=50059584",
-      "note": "Check eligibility from India"
-    },
-    {
-      "id": "irash-tech",
-      "pri": 2,
-      "added": "2026-10-13",
-      "reg": [
-        "Global",
-        "India",
-        "USA"
-      ],
-      "title": "Business Development Manager (Freelance, Commission-only)",
-      "co": "Irash Tech",
-      "loc": "REMOTE (Worldwide) Contract Irash Tech is a small AI-focused development agency based in H",
-      "years": "7+ years",
-      "overlap": "",
-      "why": "React or full-stack role with AI features in the product.",
-      "url": "https://news.ycombinator.com/item?id=50068986"
-    },
     {
       "id": "nextalpha-nu-dawn",
       "pri": 2,
@@ -1256,6 +1207,101 @@
       "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
       "url": "https://news.ycombinator.com/item?id=50350981",
       "note": "Check eligibility from India"
+    },
+    {
+      "id": "tremendous",
+      "pri": 2,
+      "added": "2026-11-04",
+      "reg": [
+        "USA"
+      ],
+      "title": "Head of Security",
+      "co": "Tremendous",
+      "loc": "New York, New York, New York, United States",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://remoteOK.com/remote-jobs/remote-head-of-security-tremendous-1136210",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "humanit-digital-consulting",
+      "pri": 2,
+      "added": "2026-11-04",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior/Staff Frontend Engineer (Next.js/JavaScript) - Portugal Full Remote",
+      "co": "HumanIT Digital Consulting",
+      "loc": "Portugal",
+      "years": "9+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://himalayas.app/companies/humanit-digital-consulting/jobs/senior-staff-frontend-engineer-next-js-javascript-portugal-full-remote?utm_source=api",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "splash-tech",
+      "pri": 2,
+      "added": "2026-11-04",
+      "reg": [
+        "Global"
+      ],
+      "title": "DevOps Mid/Senior / Frontend",
+      "co": "Splash Tech",
+      "loc": "Remote (LATAM and EU) Full Time",
+      "years": "5+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://news.ycombinator.com/item?id=50348022",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "thankly",
+      "pri": 2,
+      "added": "2026-11-04",
+      "reg": [
+        "USA"
+      ],
+      "title": "Founding Engineer, Founding Engineer (RL Environments), Founding Product Designer",
+      "co": "Thankly",
+      "loc": "REMOTE (US) Full-time",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://news.ycombinator.com/item?id=50357360",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "control-shift-video",
+      "pri": 3,
+      "added": "2026-11-04",
+      "reg": [
+        "Global"
+      ],
+      "title": "Freelance Designer",
+      "co": "Control Shift Video",
+      "loc": "Texas,",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://remoteOK.com/remote-jobs/remote-freelance-designer-control-shift-video-1136213",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "tether",
+      "pri": 3,
+      "added": "2026-11-04",
+      "reg": [
+        "Global"
+      ],
+      "title": "Product Engineering Lead, Keet",
+      "co": "Tether",
+      "loc": "REMOTE (Worldwide) We're looking for a Product Engineering Lead to help build and scale Ke",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://news.ycombinator.com/item?id=50355834"
     }
   ]
 }
