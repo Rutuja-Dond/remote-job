@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2026-11-04",
-    "dateline": "Daily update · Wednesday, 4 November 2026",
+    "date": "2026-11-05",
+    "dateline": "Daily update · Thursday, 5 November 2026",
     "signal": "1 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
     "regions": {
       "India": "AssetIntel and Raochra are the closest direct matches. The 65+ India agentic listings are almost all Python/LLM roles, not UI.",
@@ -14,21 +14,6 @@
     "boards": "Scanned automatically: Remotive, RemoteOK, Himalayas, We Work Remotely, Hacker News Who is Hiring. LinkedIn, Naukri, Indeed and Glassdoor need a login and are not scanned. Confirm date and eligibility on each apply link."
   },
   "jobs": [
-    {
-      "id": "nextalpha-nu-dawn",
-      "pri": 2,
-      "added": "2026-10-14",
-      "reg": [
-        "Global"
-      ],
-      "title": "Frontend Engineer (React/NextJS, Git, Responsive Design)",
-      "co": "NextAlpha (Nu Dawn)",
-      "loc": "Worldwide",
-      "years": "Senior, years not stated",
-      "overlap": "",
-      "why": "React or full-stack role with AI features in the product.",
-      "url": "https://himalayas.app/companies/nextalpha-nu-dawn/jobs/frontend-engineer-react-nextjs-git-responsive-design"
-    },
     {
       "id": "govstar",
       "pri": 2,
@@ -1318,6 +1303,21 @@
       "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
       "url": "https://news.ycombinator.com/item?id=50363483",
       "note": "Check eligibility from India"
+    },
+    {
+      "id": "ringbook-limited",
+      "pri": 2,
+      "added": "2026-11-05",
+      "reg": [
+        "Global"
+      ],
+      "title": "Tech lead",
+      "co": "Ringbook Limited",
+      "loc": "Worldwide",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://remoteOK.com/remote-jobs/remote-tech-lead-ringbook-limited-1137673"
     }
   ]
 }
