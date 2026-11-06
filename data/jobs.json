@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-11-05",
-    "dateline": "Daily update · Thursday, 5 November 2026",
-    "signal": "0 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
+    "date": "2026-11-06",
+    "dateline": "Daily update · Friday, 6 November 2026",
+    "signal": "3 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
     "regions": {
       "India": "AssetIntel and Raochra are the closest direct matches. The 65+ India agentic listings are almost all Python/LLM roles, not UI.",
       "Japan (English)": "Money Forward (Tokyo) and Metanomaly list no Japanese requirement and are partially remote. HENNGE offers visa sponsorship. Confirm seniority and sponsorship on each page.",
@@ -14,22 +14,6 @@
     "boards": "Scanned automatically: Remotive, RemoteOK, Himalayas, We Work Remotely, Hacker News Who is Hiring. LinkedIn, Naukri, Indeed and Glassdoor need a login and are not scanned. Confirm date and eligibility on each apply link."
   },
   "jobs": [
-    {
-      "id": "govstar",
-      "pri": 2,
-      "added": "2026-10-15",
-      "reg": [
-        "Global"
-      ],
-      "title": "https://govstar.us",
-      "co": "GovStar",
-      "loc": "Remote (U.S. Eastern/Central Time) Senior Full Stack Python Developer",
-      "years": "15+ years",
-      "overlap": "",
-      "why": "React or full-stack role with AI features in the product.",
-      "url": "https://news.ycombinator.com/item?id=50090302",
-      "note": "Check eligibility from India"
-    },
     {
       "id": "somnio-software",
       "pri": 2,
@@ -1318,6 +1302,51 @@
       "overlap": "",
       "why": "React or full-stack role with AI features in the product.",
       "url": "https://remoteOK.com/remote-jobs/remote-tech-lead-ringbook-limited-1137673"
+    },
+    {
+      "id": "secure-privacy",
+      "pri": 1,
+      "added": "2026-11-06",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Full-Stack Web Developer (.NET/C#/MongoDB/Angular/Redux) – AI-First, with GDPR Experience",
+      "co": "Secure Privacy",
+      "loc": "Anywhere in the World",
+      "years": "5+ years",
+      "overlap": "",
+      "why": "Frontend role with agentic AI work (agents, LLMs, MCP or RAG) in the description.",
+      "url": "https://weworkremotely.com/remote-jobs/secure-privacy-senior-full-stack-web-developer-net-c-mongodb-angular-redux-ai-first-with-gdpr-experience"
+    },
+    {
+      "id": "claims",
+      "pri": 2,
+      "added": "2026-11-06",
+      "reg": [
+        "Global"
+      ],
+      "title": "Software Engineer",
+      "co": "Claims",
+      "loc": "Worldwide",
+      "years": "5+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-claims-1137685"
+    },
+    {
+      "id": "horizon3",
+      "pri": 2,
+      "added": "2026-11-06",
+      "reg": [
+        "Global"
+      ],
+      "title": "Staff Technical Support Engineer (Web App)",
+      "co": "Horizon3",
+      "loc": "Anywhere in the World",
+      "years": "8+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/horizon3-staff-technical-support-engineer-web-app"
     }
   ]
 }
