@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-11-06",
-    "dateline": "Daily update · Friday, 6 November 2026",
-    "signal": "0 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
+    "date": "2026-11-07",
+    "dateline": "Daily update · Saturday, 7 November 2026",
+    "signal": "7 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
     "regions": {
       "India": "AssetIntel and Raochra are the closest direct matches. The 65+ India agentic listings are almost all Python/LLM roles, not UI.",
       "Japan (English)": "Money Forward (Tokyo) and Metanomaly list no Japanese requirement and are partially remote. HENNGE offers visa sponsorship. Confirm seniority and sponsorship on each page.",
@@ -14,51 +14,6 @@
     "boards": "Scanned automatically: Remotive, RemoteOK, Himalayas, We Work Remotely, Hacker News Who is Hiring. LinkedIn, Naukri, Indeed and Glassdoor need a login and are not scanned. Confirm date and eligibility on each apply link."
   },
   "jobs": [
-    {
-      "id": "somnio-software",
-      "pri": 2,
-      "added": "2026-10-16",
-      "reg": [
-        "Global"
-      ],
-      "title": "Sr REACT NATIVE",
-      "co": "Somnio Software",
-      "loc": "Worldwide",
-      "years": "Senior, years not stated",
-      "overlap": "",
-      "why": "React or full-stack role with AI features in the product.",
-      "url": "https://remoteOK.com/remote-jobs/remote-sr-react-native-somnio-software-1137523"
-    },
-    {
-      "id": "askable",
-      "pri": 2,
-      "added": "2026-10-16",
-      "reg": [
-        "Global"
-      ],
-      "title": "Software Engineer, AI Coding Tasks (Contract)",
-      "co": "Askable",
-      "loc": "Anywhere in the World",
-      "years": "Senior, years not stated",
-      "overlap": "",
-      "why": "React or full-stack role with AI features in the product.",
-      "url": "https://weworkremotely.com/remote-jobs/askable-software-engineer-ai-coding-tasks-contract"
-    },
-    {
-      "id": "medify",
-      "pri": 3,
-      "added": "2026-10-16",
-      "reg": [
-        "Global"
-      ],
-      "title": "Engineering Manager",
-      "co": "Medify",
-      "loc": "Anywhere in the World",
-      "years": "5+ years",
-      "overlap": "",
-      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
-      "url": "https://weworkremotely.com/remote-jobs/medify-engineering-manager"
-    },
     {
       "id": "alloy",
       "pri": 2,
@@ -1347,6 +1302,113 @@
       "overlap": "",
       "why": "React or full-stack role with AI features in the product.",
       "url": "https://weworkremotely.com/remote-jobs/horizon3-staff-technical-support-engineer-web-app"
+    },
+    {
+      "id": "askable",
+      "pri": 2,
+      "added": "2026-11-07",
+      "reg": [
+        "Global"
+      ],
+      "title": "Software Engineer, AI Coding Tasks",
+      "co": "Askable",
+      "loc": "Worldwide",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://remotive.com/remote-jobs/software-development/software-engineer-ai-coding-tasks-2091158"
+    },
+    {
+      "id": "silver-dev",
+      "pri": 2,
+      "added": "2026-11-07",
+      "reg": [
+        "Global"
+      ],
+      "title": "Feltsense AI Engineer",
+      "co": "Silver.dev",
+      "loc": "Worldwide",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://remoteOK.com/remote-jobs/remote-feltsense-ai-engineer-silver-dev-1137691"
+    },
+    {
+      "id": "cambridge-information-group",
+      "pri": 2,
+      "added": "2026-11-07",
+      "reg": [
+        "Global"
+      ],
+      "title": "Front End Developer",
+      "co": "Cambridge Information Group",
+      "loc": "Worldwide",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://remoteOK.com/remote-jobs/remote-front-end-developer-cambridge-information-group-1137597"
+    },
+    {
+      "id": "cambridge-information-group-inc",
+      "pri": 2,
+      "added": "2026-11-07",
+      "reg": [
+        "Global"
+      ],
+      "title": "Front-End Developer",
+      "co": "Cambridge Information Group Inc",
+      "loc": "Anywhere in the World",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/cambridge-information-group-inc-front-end-developer"
+    },
+    {
+      "id": "buildq",
+      "pri": 2,
+      "added": "2026-11-07",
+      "reg": [
+        "Global"
+      ],
+      "title": "Founding Engineer",
+      "co": "BuildQ",
+      "loc": "REMOTE (PT to ET overlap preferred) $130K - $150K + equity",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://news.ycombinator.com/item?id=50396245",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "3ive",
+      "pri": 2,
+      "added": "2026-11-07",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior/Staff Software Engineer",
+      "co": "3ive",
+      "loc": "REMOTE (Europe) Full-time",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://news.ycombinator.com/item?id=50398466",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "medify",
+      "pri": 3,
+      "added": "2026-11-07",
+      "reg": [
+        "Global"
+      ],
+      "title": "Engineering Manager",
+      "co": "Medify",
+      "loc": "Anywhere in the World",
+      "years": "5+ years",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://weworkremotely.com/remote-jobs/medify-engineering-manager"
     }
   ]
 }
