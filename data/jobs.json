@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-11-08",
-    "dateline": "Daily update · Sunday, 8 November 2026",
-    "signal": "0 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
+    "date": "2026-11-09",
+    "dateline": "Daily update · Monday, 9 November 2026",
+    "signal": "2 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
     "regions": {
       "India": "AssetIntel and Raochra are the closest direct matches. The 65+ India agentic listings are almost all Python/LLM roles, not UI.",
       "Japan (English)": "Money Forward (Tokyo) and Metanomaly list no Japanese requirement and are partially remote. HENNGE offers visa sponsorship. Confirm seniority and sponsorship on each page.",
@@ -14,21 +14,6 @@
     "boards": "Scanned automatically: Remotive, RemoteOK, Himalayas, We Work Remotely, Hacker News Who is Hiring. LinkedIn, Naukri, Indeed and Glassdoor need a login and are not scanned. Confirm date and eligibility on each apply link."
   },
   "jobs": [
-    {
-      "id": "alloy",
-      "pri": 2,
-      "added": "2026-10-18",
-      "reg": [
-        "Global"
-      ],
-      "title": "Founding Forward Deployed Engineer",
-      "co": "Alloy",
-      "loc": "Anywhere in the World",
-      "years": "5+ years",
-      "overlap": "",
-      "why": "React or full-stack role with AI features in the product.",
-      "url": "https://weworkremotely.com/remote-jobs/alloy-founding-forward-deployed-engineer"
-    },
     {
       "id": "dualentry",
       "pri": 2,
@@ -1409,6 +1394,37 @@
       "overlap": "",
       "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
       "url": "https://weworkremotely.com/remote-jobs/medify-engineering-manager"
+    },
+    {
+      "id": "true-talent-solutions-partners",
+      "pri": 2,
+      "added": "2026-11-09",
+      "reg": [
+        "USA"
+      ],
+      "title": "Director of Engineering",
+      "co": "True Talent Solutions Partners",
+      "loc": "USA Only",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/true-talent-solutions-partners-director-of-engineering",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "alloy",
+      "pri": 2,
+      "added": "2026-11-09",
+      "reg": [
+        "Global"
+      ],
+      "title": "Founding Forward Deployed Engineer",
+      "co": "Alloy",
+      "loc": "Anywhere in the World",
+      "years": "5+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/alloy-founding-forward-deployed-engineer"
     }
   ]
 }
