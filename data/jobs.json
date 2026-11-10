@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-11-09",
-    "dateline": "Daily update · Monday, 9 November 2026",
-    "signal": "0 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
+    "date": "2026-11-10",
+    "dateline": "Daily update · Tuesday, 10 November 2026",
+    "signal": "2 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
     "regions": {
       "India": "AssetIntel and Raochra are the closest direct matches. The 65+ India agentic listings are almost all Python/LLM roles, not UI.",
       "Japan (English)": "Money Forward (Tokyo) and Metanomaly list no Japanese requirement and are partially remote. HENNGE offers visa sponsorship. Confirm seniority and sponsorship on each page.",
@@ -1425,6 +1425,37 @@
       "overlap": "",
       "why": "React or full-stack role with AI features in the product.",
       "url": "https://weworkremotely.com/remote-jobs/alloy-founding-forward-deployed-engineer"
+    },
+    {
+      "id": "rainfocus",
+      "pri": 3,
+      "added": "2026-11-10",
+      "reg": [
+        "Global"
+      ],
+      "title": "UI Developer",
+      "co": "RainFocus",
+      "loc": "Any State",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://remoteOK.com/remote-jobs/remote-ui-developer-rainfocus-1137704",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "collabify",
+      "pri": 3,
+      "added": "2026-11-10",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Full-Stack Engineer (backend-heavy)",
+      "co": "Collabify",
+      "loc": "REMOTE (worldwide) Contract, 4–5 months",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://news.ycombinator.com/item?id=50428062"
     }
   ]
 }
