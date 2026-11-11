@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-11-10",
-    "dateline": "Daily update · Tuesday, 10 November 2026",
-    "signal": "0 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
+    "date": "2026-11-11",
+    "dateline": "Daily update · Wednesday, 11 November 2026",
+    "signal": "1 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
     "regions": {
       "India": "AssetIntel and Raochra are the closest direct matches. The 65+ India agentic listings are almost all Python/LLM roles, not UI.",
       "Japan (English)": "Money Forward (Tokyo) and Metanomaly list no Japanese requirement and are partially remote. HENNGE offers visa sponsorship. Confirm seniority and sponsorship on each page.",
@@ -1456,6 +1456,22 @@
       "overlap": "",
       "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
       "url": "https://news.ycombinator.com/item?id=50428062"
+    },
+    {
+      "id": "gt",
+      "pri": 2,
+      "added": "2026-11-11",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Agentic AI Engineer NDA",
+      "co": "GT",
+      "loc": "Warsaw",
+      "years": "6+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-agentic-ai-engineer-nda-gt-1137710",
+      "note": "Check eligibility from India"
     }
   ]
 }
