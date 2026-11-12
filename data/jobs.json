@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2026-11-11",
-    "dateline": "Daily update · Wednesday, 11 November 2026",
+    "date": "2026-11-12",
+    "dateline": "Daily update · Thursday, 12 November 2026",
     "signal": "1 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
     "regions": {
       "India": "AssetIntel and Raochra are the closest direct matches. The 65+ India agentic listings are almost all Python/LLM roles, not UI.",
@@ -1487,6 +1487,22 @@
       "overlap": "",
       "why": "React or full-stack role with AI features in the product.",
       "url": "https://news.ycombinator.com/item?id=50451710",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "foji",
+      "pri": 1,
+      "added": "2026-11-12",
+      "reg": [
+        "USA"
+      ],
+      "title": "Full Stack Engineer (TypeScript/React/Node)",
+      "co": "Foji",
+      "loc": "Atlanta (hybrid) or REMOTE (US: Utah, Central or Eastern time) Full-time",
+      "years": "5+ years",
+      "overlap": "",
+      "why": "Frontend role with agentic AI work (agents, LLMs, MCP or RAG) in the description.",
+      "url": "https://news.ycombinator.com/item?id=50460895",
       "note": "Check eligibility from India"
     }
   ]
