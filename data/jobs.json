@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-11-12",
-    "dateline": "Daily update · Thursday, 12 November 2026",
-    "signal": "0 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
+    "date": "2026-11-13",
+    "dateline": "Daily update · Friday, 13 November 2026",
+    "signal": "2 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
     "regions": {
       "India": "AssetIntel and Raochra are the closest direct matches. The 65+ India agentic listings are almost all Python/LLM roles, not UI.",
       "Japan (English)": "Money Forward (Tokyo) and Metanomaly list no Japanese requirement and are partially remote. HENNGE offers visa sponsorship. Confirm seniority and sponsorship on each page.",
@@ -14,36 +14,6 @@
     "boards": "Scanned automatically: Remotive, RemoteOK, Himalayas, We Work Remotely, Hacker News Who is Hiring. LinkedIn, Naukri, Indeed and Glassdoor need a login and are not scanned. Confirm date and eligibility on each apply link."
   },
   "jobs": [
-    {
-      "id": "dualentry",
-      "pri": 2,
-      "added": "2026-10-22",
-      "reg": [
-        "Global"
-      ],
-      "title": "Frontend Software Engineer (Mid-Level)",
-      "co": "DualEntry",
-      "loc": "Worldwide",
-      "years": "5+ years",
-      "overlap": "",
-      "why": "React or full-stack role with AI features in the product.",
-      "url": "https://himalayas.app/companies/dualentry/jobs/frontend-software-engineer-mid-level-7781816248?utm_source=api"
-    },
-    {
-      "id": "affirm",
-      "pri": 2,
-      "added": "2026-10-22",
-      "reg": [
-        "Global"
-      ],
-      "title": "Analytics Engineer II, Full Stack (Revenue Analytics)",
-      "co": "Affirm",
-      "loc": "Anywhere in the World",
-      "years": "Senior, years not stated",
-      "overlap": "",
-      "why": "React or full-stack role with AI features in the product.",
-      "url": "https://weworkremotely.com/remote-jobs/affirm-analytics-engineer-ii-full-stack-revenue-analytics"
-    },
     {
       "id": "bybit",
       "pri": 2,
@@ -1503,6 +1473,37 @@
       "overlap": "",
       "why": "Frontend role with agentic AI work (agents, LLMs, MCP or RAG) in the description.",
       "url": "https://news.ycombinator.com/item?id=50460895",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "affirm",
+      "pri": 2,
+      "added": "2026-11-13",
+      "reg": [
+        "Global"
+      ],
+      "title": "Analytics Engineer II, Full Stack (Revenue Analytics)",
+      "co": "Affirm",
+      "loc": "Anywhere in the World",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/affirm-analytics-engineer-ii-full-stack-revenue-analytics"
+    },
+    {
+      "id": "edgeq-technologies-private-limited",
+      "pri": 3,
+      "added": "2026-11-13",
+      "reg": [
+        "USA"
+      ],
+      "title": "Game UI Engineer",
+      "co": "EdgeQ Technologies Private Limited",
+      "loc": "USA Only",
+      "years": "7+ years",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://weworkremotely.com/remote-jobs/edgeq-technologies-private-limited-game-ui-engineer",
       "note": "Check eligibility from India"
     }
   ]
