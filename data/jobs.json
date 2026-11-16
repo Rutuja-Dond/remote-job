@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-11-15",
-    "dateline": "Daily update · Sunday, 15 November 2026",
-    "signal": "0 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
+    "date": "2026-11-16",
+    "dateline": "Daily update · Monday, 16 November 2026",
+    "signal": "1 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
     "regions": {
       "India": "AssetIntel and Raochra are the closest direct matches. The 65+ India agentic listings are almost all Python/LLM roles, not UI.",
       "Japan (English)": "Money Forward (Tokyo) and Metanomaly list no Japanese requirement and are partially remote. HENNGE offers visa sponsorship. Confirm seniority and sponsorship on each page.",
@@ -14,21 +14,6 @@
     "boards": "Scanned automatically: Remotive, RemoteOK, Himalayas, We Work Remotely, Hacker News Who is Hiring. LinkedIn, Naukri, Indeed and Glassdoor need a login and are not scanned. Confirm date and eligibility on each apply link."
   },
   "jobs": [
-    {
-      "id": "b2spin",
-      "pri": 2,
-      "added": "2026-10-25",
-      "reg": [
-        "Global"
-      ],
-      "title": "Senior Frontend Engineer",
-      "co": "B2spin",
-      "loc": "Worldwide",
-      "years": "Senior, years not stated",
-      "overlap": "",
-      "why": "React or full-stack role with AI features in the product.",
-      "url": "https://remoteOK.com/remote-jobs/remote-senior-frontend-engineer-b2spin-1137562"
-    },
     {
       "id": "devfixr",
       "pri": 2,
@@ -1552,6 +1537,22 @@
       "overlap": "",
       "why": "React or full-stack role with AI features in the product.",
       "url": "https://weworkremotely.com/remote-jobs/life360-senior-software-engineer-verticals-ai-native",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "come-and-see",
+      "pri": 2,
+      "added": "2026-11-16",
+      "reg": [
+        "USA"
+      ],
+      "title": "Product Engineer, Full Stack",
+      "co": "Come and See",
+      "loc": "USA Only",
+      "years": "5+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/come-and-see-product-engineer-full-stack",
       "note": "Check eligibility from India"
     }
   ]
