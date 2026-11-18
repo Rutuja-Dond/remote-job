@@ -2,7 +2,7 @@
   "meta": {
     "date": "2026-11-18",
     "dateline": "Daily update · Wednesday, 18 November 2026",
-    "signal": "5 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
+    "signal": "4 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
     "regions": {
       "India": "AssetIntel and Raochra are the closest direct matches. The 65+ India agentic listings are almost all Python/LLM roles, not UI.",
       "Japan (English)": "Money Forward (Tokyo) and Metanomaly list no Japanese requirement and are partially remote. HENNGE offers visa sponsorship. Confirm seniority and sponsorship on each page.",
@@ -1521,6 +1521,70 @@
       "overlap": "",
       "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
       "url": "https://weworkremotely.com/remote-jobs/vested-inc-senior-software-engineer-1"
+    },
+    {
+      "id": "sezzle",
+      "pri": 2,
+      "added": "2026-11-18",
+      "reg": [
+        "Africa"
+      ],
+      "title": "Senior Software Engineer (Turkey)",
+      "co": "Sezzle",
+      "loc": "EMEA Only",
+      "years": "8+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/sezzle-senior-software-engineer-turkey",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "g-p",
+      "pri": 2,
+      "added": "2026-11-18",
+      "reg": [
+        "Global"
+      ],
+      "title": "Software Engineer II",
+      "co": "G-P",
+      "loc": "Asia Only",
+      "years": "14+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/g-p-software-engineer-ii",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "workmotion",
+      "pri": 2,
+      "added": "2026-11-18",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Software Engineer",
+      "co": "WorkMotion",
+      "loc": "Europe Only",
+      "years": "6+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/workmotion-senior-software-engineer",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "eco-plus-solutions-ab",
+      "pri": 3,
+      "added": "2026-11-18",
+      "reg": [
+        "Global"
+      ],
+      "title": "German-Speaking Full-Stack Developer– Healthcare / MedTech (Remote)",
+      "co": "Eco Plus Solutions AB",
+      "loc": "Europe Only",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://weworkremotely.com/remote-jobs/eco-plus-solutions-ab-german-speaking-full-stack-developer-healthcare-medtech-remote",
+      "note": "Check eligibility from India"
     }
   ]
 }
