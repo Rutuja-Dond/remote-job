@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-11-17",
-    "dateline": "Daily update · Tuesday, 17 November 2026",
-    "signal": "0 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
+    "date": "2026-11-18",
+    "dateline": "Daily update · Wednesday, 18 November 2026",
+    "signal": "5 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
     "regions": {
       "India": "AssetIntel and Raochra are the closest direct matches. The 65+ India agentic listings are almost all Python/LLM roles, not UI.",
       "Japan (English)": "Money Forward (Tokyo) and Metanomaly list no Japanese requirement and are partially remote. HENNGE offers visa sponsorship. Confirm seniority and sponsorship on each page.",
@@ -14,116 +14,6 @@
     "boards": "Scanned automatically: Remotive, RemoteOK, Himalayas, We Work Remotely, Hacker News Who is Hiring. LinkedIn, Naukri, Indeed and Glassdoor need a login and are not scanned. Confirm date and eligibility on each apply link."
   },
   "jobs": [
-    {
-      "id": "eventfirst",
-      "pri": 1,
-      "added": "2026-10-27",
-      "reg": [
-        "Global"
-      ],
-      "title": "Senior Full-Stack Engineer",
-      "co": "eventfirst",
-      "loc": "Berlin, Germany REMOTE (CET)",
-      "years": "Senior, years not stated",
-      "overlap": "",
-      "why": "Frontend role with agentic AI work (agents, LLMs, MCP or RAG) in the description.",
-      "url": "https://news.ycombinator.com/item?id=49930919",
-      "note": "Check eligibility from India"
-    },
-    {
-      "id": "wagmo",
-      "pri": 2,
-      "added": "2026-10-27",
-      "reg": [
-        "Global"
-      ],
-      "title": "Senior Software Engineer LATAM",
-      "co": "Wagmo",
-      "loc": "Worldwide",
-      "years": "Senior, years not stated",
-      "overlap": "",
-      "why": "React or full-stack role with AI features in the product.",
-      "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-latam-wagmo-1137572"
-    },
-    {
-      "id": "stockx",
-      "pri": 2,
-      "added": "2026-10-27",
-      "reg": [
-        "Global"
-      ],
-      "title": "Director, Category Growth (General Manager)",
-      "co": "StockX",
-      "loc": "Anywhere in the World",
-      "years": "10+ years",
-      "overlap": "",
-      "why": "React or full-stack role with AI features in the product.",
-      "url": "https://weworkremotely.com/remote-jobs/stockx-director-category-growth-general-manager"
-    },
-    {
-      "id": "curai",
-      "pri": 2,
-      "added": "2026-10-27",
-      "reg": [
-        "Global"
-      ],
-      "title": "Remote (US)",
-      "co": "Curai",
-      "loc": "Full-time https://curaihealth.com We're building AI agents to expand access to affordable,",
-      "years": "Senior, years not stated",
-      "overlap": "",
-      "why": "React or full-stack role with AI features in the product.",
-      "url": "https://news.ycombinator.com/item?id=49924974",
-      "note": "Check eligibility from India"
-    },
-    {
-      "id": "seeq",
-      "pri": 2,
-      "added": "2026-10-27",
-      "reg": [
-        "Global"
-      ],
-      "title": "https://seeq.com",
-      "co": "Seeq",
-      "loc": "Staff/Principal Software Engineer (Full-Stack, AI, Backend, Platform) REMOTE (Some crossov",
-      "years": "Senior, years not stated",
-      "overlap": "",
-      "why": "React or full-stack role with AI features in the product.",
-      "url": "https://news.ycombinator.com/item?id=49929522",
-      "note": "Check eligibility from India"
-    },
-    {
-      "id": "gc-ai",
-      "pri": 2,
-      "added": "2026-10-27",
-      "reg": [
-        "Canada",
-        "USA"
-      ],
-      "title": "Member of Technical Staff, Applied AI",
-      "co": "GC AI",
-      "loc": "REMOTE (US/Canada) $180K–$430K + equity GC AI is building an AI platform for in-house lega",
-      "years": "Senior, years not stated",
-      "overlap": "",
-      "why": "React or full-stack role with AI features in the product.",
-      "url": "https://news.ycombinator.com/item?id=49943713",
-      "note": "Check eligibility from India"
-    },
-    {
-      "id": "vested-inc",
-      "pri": 3,
-      "added": "2026-10-27",
-      "reg": [
-        "Global"
-      ],
-      "title": "Senior Software Engineer",
-      "co": "Vested, Inc.",
-      "loc": "Anywhere in the World",
-      "years": "Senior, years not stated",
-      "overlap": "",
-      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
-      "url": "https://weworkremotely.com/remote-jobs/vested-inc-senior-software-engineer-1"
-    },
     {
       "id": "lemon-io",
       "pri": 1,
@@ -1554,6 +1444,83 @@
       "overlap": "",
       "why": "React or full-stack role with AI features in the product.",
       "url": "https://himalayas.app/companies/devfixr/jobs/fullstack-engineer-next-js-typescript?utm_source=api"
+    },
+    {
+      "id": "eventfirst",
+      "pri": 1,
+      "added": "2026-11-18",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Full-Stack Engineer",
+      "co": "eventfirst",
+      "loc": "Berlin, Germany REMOTE (CET)",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "Frontend role with agentic AI work (agents, LLMs, MCP or RAG) in the description.",
+      "url": "https://news.ycombinator.com/item?id=50341824",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "wagmo",
+      "pri": 2,
+      "added": "2026-11-18",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Software Engineer LATAM",
+      "co": "Wagmo",
+      "loc": "Worldwide",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-latam-wagmo-1137572"
+    },
+    {
+      "id": "stockx",
+      "pri": 2,
+      "added": "2026-11-18",
+      "reg": [
+        "Global"
+      ],
+      "title": "Director, Category Growth (General Manager)",
+      "co": "StockX",
+      "loc": "Anywhere in the World",
+      "years": "10+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/stockx-director-category-growth-general-manager"
+    },
+    {
+      "id": "curai",
+      "pri": 2,
+      "added": "2026-11-18",
+      "reg": [
+        "Global"
+      ],
+      "title": "Remote (US)",
+      "co": "Curai",
+      "loc": "Full-time https://curaihealth.com We're building AI agents to expand access to affordable,",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://news.ycombinator.com/item?id=50342579",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "vested-inc",
+      "pri": 3,
+      "added": "2026-11-18",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Software Engineer",
+      "co": "Vested, Inc.",
+      "loc": "Anywhere in the World",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://weworkremotely.com/remote-jobs/vested-inc-senior-software-engineer-1"
     }
   ]
 }
