@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-11-19",
-    "dateline": "Daily update · Thursday, 19 November 2026",
-    "signal": "0 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
+    "date": "2026-11-20",
+    "dateline": "Daily update · Friday, 20 November 2026",
+    "signal": "4 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
     "regions": {
       "India": "AssetIntel and Raochra are the closest direct matches. The 65+ India agentic listings are almost all Python/LLM roles, not UI.",
       "Japan (English)": "Money Forward (Tokyo) and Metanomaly list no Japanese requirement and are partially remote. HENNGE offers visa sponsorship. Confirm seniority and sponsorship on each page.",
@@ -14,69 +14,6 @@
     "boards": "Scanned automatically: Remotive, RemoteOK, Himalayas, We Work Remotely, Hacker News Who is Hiring. LinkedIn, Naukri, Indeed and Glassdoor need a login and are not scanned. Confirm date and eligibility on each apply link."
   },
   "jobs": [
-    {
-      "id": "edconic",
-      "pri": 2,
-      "added": "2026-10-29",
-      "reg": [
-        "Global"
-      ],
-      "title": "Front-End Developer",
-      "co": "Edconic",
-      "loc": "Anywhere in the World",
-      "years": "Senior, years not stated",
-      "overlap": "",
-      "why": "React or full-stack role with AI features in the product.",
-      "url": "https://weworkremotely.com/remote-jobs/edconic-front-end-developer"
-    },
-    {
-      "id": "manifest",
-      "pri": 2,
-      "added": "2026-10-29",
-      "reg": [
-        "Global",
-        "USA"
-      ],
-      "title": "https://www.manifestcyber.com/",
-      "co": "Manifest",
-      "loc": "REMOTE (US) Full Time Manifest is on a mission to secure the global software and AI supply",
-      "years": "Senior, years not stated",
-      "overlap": "",
-      "why": "React or full-stack role with AI features in the product.",
-      "url": "https://news.ycombinator.com/item?id=49987144"
-    },
-    {
-      "id": "purchasely",
-      "pri": 3,
-      "added": "2026-10-29",
-      "reg": [
-        "Global"
-      ],
-      "title": "https://www.purchasely.com",
-      "co": "Purchasely",
-      "loc": "Senior iOS SDK Engineer Paris, France",
-      "years": "Senior, years not stated",
-      "overlap": "",
-      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
-      "url": "https://news.ycombinator.com/item?id=49980867",
-      "note": "Check eligibility from India"
-    },
-    {
-      "id": "twtspain",
-      "pri": 3,
-      "added": "2026-10-29",
-      "reg": [
-        "Global"
-      ],
-      "title": "Frontend Developer | JavaScript | Microfrontends | Remote Spain",
-      "co": "Twtspain",
-      "loc": "Spain",
-      "years": "5+ years",
-      "overlap": "",
-      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
-      "url": "https://himalayas.app/companies/twtspain/jobs/frontend-developer-javascript-microfrontends-remote-spain?utm_source=api",
-      "note": "Check eligibility from India"
-    },
     {
       "id": "ojin",
       "pri": 2,
@@ -1261,6 +1198,68 @@
       "overlap": "",
       "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
       "url": "https://news.ycombinator.com/item?id=50343258",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "postscript",
+      "pri": 1,
+      "added": "2026-11-20",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Fullstack Engineer, Customer Context",
+      "co": "Postscript",
+      "loc": "Anywhere in the World",
+      "years": "6+ years",
+      "overlap": "",
+      "why": "Frontend role with agentic AI work (agents, LLMs, MCP or RAG) in the description.",
+      "url": "https://weworkremotely.com/remote-jobs/postscript-senior-fullstack-engineer-customer-context"
+    },
+    {
+      "id": "treatwell",
+      "pri": 2,
+      "added": "2026-11-20",
+      "reg": [
+        "Global"
+      ],
+      "title": "SEO Full Stack Engineer",
+      "co": "Treatwell",
+      "loc": "Worldwide",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://remoteOK.com/remote-jobs/remote-seo-full-stack-engineer-treatwell-1137805"
+    },
+    {
+      "id": "mozilla",
+      "pri": 2,
+      "added": "2026-11-20",
+      "reg": [
+        "Global"
+      ],
+      "title": "Staff Software Engineer, OS Integration",
+      "co": "Mozilla",
+      "loc": "Europe Only",
+      "years": "7+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/mozilla-staff-software-engineer-os-integration",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "armada",
+      "pri": 2,
+      "added": "2026-11-20",
+      "reg": [
+        "USA"
+      ],
+      "title": "Field CTO, AI Factory",
+      "co": "Armada",
+      "loc": "USA Only",
+      "years": "15+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/armada-field-cto-ai-factory",
       "note": "Check eligibility from India"
     }
   ]
