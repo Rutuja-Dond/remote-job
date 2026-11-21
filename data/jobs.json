@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-11-20",
-    "dateline": "Daily update · Friday, 20 November 2026",
-    "signal": "0 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
+    "date": "2026-11-21",
+    "dateline": "Daily update · Saturday, 21 November 2026",
+    "signal": "8 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
     "regions": {
       "India": "AssetIntel and Raochra are the closest direct matches. The 65+ India agentic listings are almost all Python/LLM roles, not UI.",
       "Japan (English)": "Money Forward (Tokyo) and Metanomaly list no Japanese requirement and are partially remote. HENNGE offers visa sponsorship. Confirm seniority and sponsorship on each page.",
@@ -14,22 +14,6 @@
     "boards": "Scanned automatically: Remotive, RemoteOK, Himalayas, We Work Remotely, Hacker News Who is Hiring. LinkedIn, Naukri, Indeed and Glassdoor need a login and are not scanned. Confirm date and eligibility on each apply link."
   },
   "jobs": [
-    {
-      "id": "ojin",
-      "pri": 2,
-      "added": "2026-10-30",
-      "reg": [
-        "Global",
-        "USA"
-      ],
-      "title": "Lead Platform Engineer",
-      "co": "Ojin",
-      "loc": "HYBRID (Berlin) or REMOTE (CET ±2h) Full-time Hi HN! I'm Seema, part of the team at Ojin, ",
-      "years": "5+ years",
-      "overlap": "",
-      "why": "React or full-stack role with AI features in the product.",
-      "url": "https://news.ycombinator.com/item?id=50004401"
-    },
     {
       "id": "fluence-international-inc",
       "pri": 2,
@@ -1261,6 +1245,130 @@
       "why": "React or full-stack role with AI features in the product.",
       "url": "https://weworkremotely.com/remote-jobs/armada-field-cto-ai-factory",
       "note": "Check eligibility from India"
+    },
+    {
+      "id": "dropbox",
+      "pri": 1,
+      "added": "2026-11-21",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Full Stack Product Software Engineer, Application Platform",
+      "co": "Dropbox",
+      "loc": "Europe Only",
+      "years": "9+ years",
+      "overlap": "",
+      "why": "Frontend role with agentic AI work (agents, LLMs, MCP or RAG) in the description.",
+      "url": "https://weworkremotely.com/remote-jobs/dropbox-senior-full-stack-product-software-engineer-application-platform",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "tebra",
+      "pri": 2,
+      "added": "2026-11-21",
+      "reg": [
+        "USA"
+      ],
+      "title": "Product Designer",
+      "co": "Tebra",
+      "loc": "US Only",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://remoteOK.com/remote-jobs/remote-product-designer-tebra-1137873",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "salesloft",
+      "pri": 2,
+      "added": "2026-11-21",
+      "reg": [
+        "USA"
+      ],
+      "title": "Senior GTM Engineer",
+      "co": "Salesloft",
+      "loc": "US Only",
+      "years": "5+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-gtm-engineer-salesloft-1137851",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "wrike",
+      "pri": 2,
+      "added": "2026-11-21",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Product Builder - Talent Pool",
+      "co": "Wrike",
+      "loc": "Anywhere in the World",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/wrike-senior-product-builder-talent-pool"
+    },
+    {
+      "id": "gusto-inc",
+      "pri": 2,
+      "added": "2026-11-21",
+      "reg": [
+        "Global"
+      ],
+      "title": "Software Engineer, Financial Data & Payments",
+      "co": "Gusto, Inc.",
+      "loc": "Anywhere in the World",
+      "years": "10+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/gusto-inc-software-engineer-financial-data-payments"
+    },
+    {
+      "id": "ledgy",
+      "pri": 2,
+      "added": "2026-11-21",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior DevOps Engineer",
+      "co": "Ledgy",
+      "loc": "Anywhere in the World",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/ledgy-senior-devops-engineer"
+    },
+    {
+      "id": "cribl",
+      "pri": 2,
+      "added": "2026-11-21",
+      "reg": [
+        "USA"
+      ],
+      "title": "Staff Software Engineer, Search Core",
+      "co": "Cribl",
+      "loc": "USA Only",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/cribl-staff-software-engineer-search-core",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "arbor-education",
+      "pri": 3,
+      "added": "2026-11-21",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Product Engineer",
+      "co": "Arbor Education",
+      "loc": "Worldwide",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-product-engineer-arbor-education-1137865"
     }
   ]
 }
