@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-11-21",
-    "dateline": "Daily update · Saturday, 21 November 2026",
-    "signal": "0 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
+    "date": "2026-11-22",
+    "dateline": "Daily update · Sunday, 22 November 2026",
+    "signal": "3 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
     "regions": {
       "India": "AssetIntel and Raochra are the closest direct matches. The 65+ India agentic listings are almost all Python/LLM roles, not UI.",
       "Japan (English)": "Money Forward (Tokyo) and Metanomaly list no Japanese requirement and are partially remote. HENNGE offers visa sponsorship. Confirm seniority and sponsorship on each page.",
@@ -14,36 +14,6 @@
     "boards": "Scanned automatically: Remotive, RemoteOK, Himalayas, We Work Remotely, Hacker News Who is Hiring. LinkedIn, Naukri, Indeed and Glassdoor need a login and are not scanned. Confirm date and eligibility on each apply link."
   },
   "jobs": [
-    {
-      "id": "fluence-international-inc",
-      "pri": 2,
-      "added": "2026-10-31",
-      "reg": [
-        "Global"
-      ],
-      "title": "Full-Stack Developer",
-      "co": "Fluence International, Inc.",
-      "loc": "Worldwide",
-      "years": "Senior, years not stated",
-      "overlap": "",
-      "why": "React or full-stack role with AI features in the product.",
-      "url": "https://remotive.com/remote-jobs/software-development/full-stack-developer-2091165"
-    },
-    {
-      "id": "ritual",
-      "pri": 2,
-      "added": "2026-10-31",
-      "reg": [
-        "Global"
-      ],
-      "title": "Developer Experience Engineer",
-      "co": "Ritual",
-      "loc": "Anywhere in the World",
-      "years": "Senior, years not stated",
-      "overlap": "",
-      "why": "React or full-stack role with AI features in the product.",
-      "url": "https://weworkremotely.com/remote-jobs/ritual-developer-experience-engineer"
-    },
     {
       "id": "knock",
       "pri": 1,
@@ -1369,6 +1339,52 @@
       "overlap": "",
       "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
       "url": "https://remoteOK.com/remote-jobs/remote-senior-product-engineer-arbor-education-1137865"
+    },
+    {
+      "id": "fluence-international-inc",
+      "pri": 2,
+      "added": "2026-11-22",
+      "reg": [
+        "Global"
+      ],
+      "title": "Full-Stack Developer",
+      "co": "Fluence International, Inc.",
+      "loc": "Worldwide",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://remotive.com/remote-jobs/software-development/full-stack-developer-2091165"
+    },
+    {
+      "id": "honeycomb-io",
+      "pri": 2,
+      "added": "2026-11-22",
+      "reg": [
+        "Canada"
+      ],
+      "title": "Senior Software Engineer II - Agentic Intelligence",
+      "co": "Honeycomb.io",
+      "loc": "Canada Only",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-ii-agentic-intelligence-honeycomb-io-1137924",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "lattice",
+      "pri": 2,
+      "added": "2026-11-22",
+      "reg": [
+        "Global"
+      ],
+      "title": "Engineering Manager, Integrations",
+      "co": "Lattice",
+      "loc": "Anywhere in the World",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/lattice-engineering-manager-integrations-1"
     }
   ]
 }
