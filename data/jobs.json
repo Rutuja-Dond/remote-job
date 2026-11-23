@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-11-22",
-    "dateline": "Daily update · Sunday, 22 November 2026",
-    "signal": "0 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
+    "date": "2026-11-23",
+    "dateline": "Daily update · Monday, 23 November 2026",
+    "signal": "5 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
     "regions": {
       "India": "AssetIntel and Raochra are the closest direct matches. The 65+ India agentic listings are almost all Python/LLM roles, not UI.",
       "Japan (English)": "Money Forward (Tokyo) and Metanomaly list no Japanese requirement and are partially remote. HENNGE offers visa sponsorship. Confirm seniority and sponsorship on each page.",
@@ -14,52 +14,6 @@
     "boards": "Scanned automatically: Remotive, RemoteOK, Himalayas, We Work Remotely, Hacker News Who is Hiring. LinkedIn, Naukri, Indeed and Glassdoor need a login and are not scanned. Confirm date and eligibility on each apply link."
   },
   "jobs": [
-    {
-      "id": "knock",
-      "pri": 1,
-      "added": "2026-11-01",
-      "reg": [
-        "Global"
-      ],
-      "title": "Lending Manager (Front End) - Remote",
-      "co": "Knock",
-      "loc": "Anywhere in the World",
-      "years": "10+ years",
-      "overlap": "",
-      "why": "Frontend role with agentic AI work (agents, LLMs, MCP or RAG) in the description.",
-      "url": "https://weworkremotely.com/remote-jobs/knock-lending-manager-front-end-remote"
-    },
-    {
-      "id": "propel-labs",
-      "pri": 1,
-      "added": "2026-11-01",
-      "reg": [
-        "USA"
-      ],
-      "title": "Staff Full-Stack Engineer, Quality & Delivery",
-      "co": "Propel Labs",
-      "loc": "Remote (North America hours) Full-time",
-      "years": "Senior, years not stated",
-      "overlap": "",
-      "why": "Frontend role with agentic AI work (agents, LLMs, MCP or RAG) in the description.",
-      "url": "https://news.ycombinator.com/item?id=50020012",
-      "note": "Check eligibility from India"
-    },
-    {
-      "id": "fuel50",
-      "pri": 2,
-      "added": "2026-11-01",
-      "reg": [
-        "Global"
-      ],
-      "title": "Product Design Lead",
-      "co": "Fuel50",
-      "loc": "Worldwide",
-      "years": "Senior, years not stated",
-      "overlap": "",
-      "why": "React or full-stack role with AI features in the product.",
-      "url": "https://remoteOK.com/remote-jobs/remote-product-design-lead-fuel50-1137474"
-    },
     {
       "id": "tether-operations-limited",
       "pri": 2,
@@ -1385,6 +1339,81 @@
       "overlap": "",
       "why": "React or full-stack role with AI features in the product.",
       "url": "https://weworkremotely.com/remote-jobs/lattice-engineering-manager-integrations-1"
+    },
+    {
+      "id": "knock",
+      "pri": 1,
+      "added": "2026-11-23",
+      "reg": [
+        "Global"
+      ],
+      "title": "Lending Manager (Front End) - Remote",
+      "co": "Knock",
+      "loc": "Anywhere in the World",
+      "years": "10+ years",
+      "overlap": "",
+      "why": "Frontend role with agentic AI work (agents, LLMs, MCP or RAG) in the description.",
+      "url": "https://weworkremotely.com/remote-jobs/knock-lending-manager-front-end-remote"
+    },
+    {
+      "id": "upstart",
+      "pri": 2,
+      "added": "2026-11-23",
+      "reg": [
+        "Global"
+      ],
+      "title": "Frontend Software Engineer, Personal Loans",
+      "co": "Upstart",
+      "loc": "Anywhere in the World",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/upstart-frontend-software-engineer-personal-loans"
+    },
+    {
+      "id": "smartsheet",
+      "pri": 2,
+      "added": "2026-11-23",
+      "reg": [
+        "Global"
+      ],
+      "title": "Sr. Software Engineer I (Remote Eligible)",
+      "co": "Smartsheet",
+      "loc": "Anywhere in the World",
+      "years": "5+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/smartsheet-sr-software-engineer-i-remote-eligible"
+    },
+    {
+      "id": "gemini",
+      "pri": 2,
+      "added": "2026-11-23",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Software Engineer, Predictions (Mobile)",
+      "co": "Gemini",
+      "loc": "Anywhere in the World",
+      "years": "6+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/gemini-senior-software-engineer-predictions-mobile"
+    },
+    {
+      "id": "descript",
+      "pri": 2,
+      "added": "2026-11-23",
+      "reg": [
+        "Global"
+      ],
+      "title": "Software Engineer, Product",
+      "co": "Descript",
+      "loc": "Anywhere in the World",
+      "years": "5+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/descript-software-engineer-product"
     }
   ]
 }
