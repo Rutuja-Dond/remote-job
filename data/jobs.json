@@ -2,7 +2,7 @@
   "meta": {
     "date": "2026-11-27",
     "dateline": "Daily update · Friday, 27 November 2026",
-    "signal": "2 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
+    "signal": "3 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
     "regions": {
       "India": "AssetIntel and Raochra are the closest direct matches. The 65+ India agentic listings are almost all Python/LLM roles, not UI.",
       "Japan (English)": "Money Forward (Tokyo) and Metanomaly list no Japanese requirement and are partially remote. HENNGE offers visa sponsorship. Confirm seniority and sponsorship on each page.",
@@ -1507,6 +1507,54 @@
       "overlap": "",
       "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
       "url": "https://remoteOK.com/remote-jobs/remote-developer-advocate-network-apis-aduna-1138170",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "lastpass",
+      "pri": 2,
+      "added": "2026-11-27",
+      "reg": [
+        "Global"
+      ],
+      "title": "Senior Frontend Engineer",
+      "co": "LastPass",
+      "loc": "Europe",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-frontend-engineer-lastpass-1138187",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "trm-labs",
+      "pri": 2,
+      "added": "2026-11-27",
+      "reg": [
+        "Global"
+      ],
+      "title": "Account Director, Public Sector (DACH)",
+      "co": "TRM Labs",
+      "loc": "Europe Only",
+      "years": "5+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/trm-labs-account-director-public-sector-dach",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "3y-health",
+      "pri": 2,
+      "added": "2026-11-27",
+      "reg": [
+        "Global"
+      ],
+      "title": "AI Product Engineer",
+      "co": "3Y Health",
+      "loc": "Latin America Only",
+      "years": "5+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://weworkremotely.com/remote-jobs/3y-health-ai-product-engineer",
       "note": "Check eligibility from India"
     }
   ]
