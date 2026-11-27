@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-11-26",
-    "dateline": "Daily update · Thursday, 26 November 2026",
-    "signal": "0 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
+    "date": "2026-11-27",
+    "dateline": "Daily update · Friday, 27 November 2026",
+    "signal": "2 new role(s) found in today's automated scan of public job feeds. Hiring announcements are not tracked automatically; check company careers pages.",
     "regions": {
       "India": "AssetIntel and Raochra are the closest direct matches. The 65+ India agentic listings are almost all Python/LLM roles, not UI.",
       "Japan (English)": "Money Forward (Tokyo) and Metanomaly list no Japanese requirement and are partially remote. HENNGE offers visa sponsorship. Confirm seniority and sponsorship on each page.",
@@ -14,21 +14,6 @@
     "boards": "Scanned automatically: Remotive, RemoteOK, Himalayas, We Work Remotely, Hacker News Who is Hiring. LinkedIn, Naukri, Indeed and Glassdoor need a login and are not scanned. Confirm date and eligibility on each apply link."
   },
   "jobs": [
-    {
-      "id": "ringbook-limited",
-      "pri": 2,
-      "added": "2026-11-05",
-      "reg": [
-        "Global"
-      ],
-      "title": "Tech lead",
-      "co": "Ringbook Limited",
-      "loc": "Worldwide",
-      "years": "Senior, years not stated",
-      "overlap": "",
-      "why": "React or full-stack role with AI features in the product.",
-      "url": "https://remoteOK.com/remote-jobs/remote-tech-lead-ringbook-limited-1137673"
-    },
     {
       "id": "secure-privacy",
       "pri": 1,
@@ -1490,6 +1475,38 @@
       "overlap": "",
       "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
       "url": "https://news.ycombinator.com/item?id=50363483",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "raya",
+      "pri": 2,
+      "added": "2026-11-27",
+      "reg": [
+        "USA"
+      ],
+      "title": "Senior iOS Engineer, Foundations",
+      "co": "Raya",
+      "loc": "US Only",
+      "years": "5+ years",
+      "overlap": "",
+      "why": "React or full-stack role with AI features in the product.",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-ios-engineer-foundations-raya-1138180",
+      "note": "Check eligibility from India"
+    },
+    {
+      "id": "aduna",
+      "pri": 3,
+      "added": "2026-11-27",
+      "reg": [
+        "USA"
+      ],
+      "title": "Developer Advocate - Network APIs",
+      "co": "aduna",
+      "loc": "US Only",
+      "years": "Senior, years not stated",
+      "overlap": "",
+      "why": "Senior frontend or full-stack role. No AI focus found in the listing.",
+      "url": "https://remoteOK.com/remote-jobs/remote-developer-advocate-network-apis-aduna-1138170",
       "note": "Check eligibility from India"
     }
   ]
